@@ -134,7 +134,7 @@ ul li {
     color:#ffffff;
     cursor:pointer;
     position:relative;
-    background:url('../images/logo.png') no-repeat 0 0;
+    background:url('/images/logo.png') no-repeat 0 0;
     float:left;
 }
 
@@ -213,9 +213,9 @@ ul li {
     display:none;
 }
 
-.lang-w a.lang-en { background:url('../images/lang-en.png') no-repeat 0 5px; }
-.lang-w a.lang-ru { background:url('../images/lang-ru.png') no-repeat 0 5px; }
-.lang-w a.lang-tr { background:url('../images/lang-tr.png') no-repeat 0 5px; }
+.lang-w a.lang-en { background:url('/images/lang-en.png') no-repeat 0 5px; }
+.lang-w a.lang-ru { background:url('/images/lang-ru.png') no-repeat 0 5px; }
+.lang-w a.lang-tr { background:url('/images/lang-tr.png') no-repeat 0 5px; }
 
 .lang-w a.lang-active {
     display:block;
@@ -276,7 +276,7 @@ ul li {
             color:#ffffff;
             cursor:pointer;
             position:relative;
-            background:url('../images/logo.png') no-repeat 0 0;
+            background:url('/images/logo.png') no-repeat 0 0;
             float:left;
         }
 
@@ -344,7 +344,7 @@ ul li {
             color:#ffffff;
             cursor:pointer;
             position:relative;
-            background:url('../images/logo.png') no-repeat 0 0;
+            background:url('/images/logo.png') no-repeat 0 0;
             float:left;
         }
 
@@ -414,7 +414,7 @@ ul li {
             color:#ffffff;
             cursor:pointer;
             position:relative;
-            background:url('../images/logo.png') no-repeat 0 0;
+            background:url('/images/logo.png') no-repeat 0 0;
             float:left;
         }
 
@@ -457,7 +457,7 @@ ul li {
     padding:0;
     margin:0;
     position:relative;
-    background:url('../images/2.png') no-repeat top center #160951;
+    background:url('/images/2.png') no-repeat top center #160951;
     overflow:hidden;
 }
 
@@ -466,7 +466,7 @@ ul li {
     padding:0;
     margin:0;
     position:relative;
-    background:url('../images/3.png') no-repeat top center;
+    background:url('/images/3.png') no-repeat top center;
 }
 
 #box-1-w::after {
@@ -479,7 +479,7 @@ ul li {
     top:0;
     left:0;
     z-index:2;
-    background:url('../images/4.png') no-repeat top center;
+    background:url('/images/4.png') no-repeat top center;
 }
 
 #box-1-w::before {
@@ -492,7 +492,7 @@ ul li {
     top:75px;
     left:50%;
     z-index:2;
-    background:url('../images/1.png') no-repeat top center;
+    background:url('/images/1.png') no-repeat top center;
 }
 
 #box-1 {
@@ -653,11 +653,11 @@ a.button-2:hover {
     -khtml-border-radius:100%;
 }
 
-#box-1 .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-#box-1 .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-#box-1 .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-#box-1 .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-#box-1 .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+#box-1 .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+#box-1 .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+#box-1 .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+#box-1 .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+#box-1 .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
 #box-1 .social a:hover {
     opacity:0.5;
@@ -669,7 +669,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/2.png') no-repeat top center #160951;
+            background:url('/images/2.png') no-repeat top center #160951;
             overflow:hidden;
         }
 
@@ -678,7 +678,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/3.png') no-repeat top center;
+            background:url('/images/3.png') no-repeat top center;
         }
 
         #box-1-w::after {
@@ -691,7 +691,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/4.png') no-repeat top center;
+            background:url('/images/4.png') no-repeat top center;
         }
 
         #box-1-w::before {
@@ -704,7 +704,7 @@ a.button-2:hover {
             top:75px;
             left:50%;
             z-index:2;
-            background:url('../images/1.png') no-repeat top center;
+            background:url('/images/1.png') no-repeat top center;
         }
 
         #box-1 {
@@ -865,11 +865,11 @@ a.button-2:hover {
             -khtml-border-radius:100%;
         }
 
-        #box-1 .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        #box-1 .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        #box-1 .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-        #box-1 .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-        #box-1 .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+        #box-1 .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        #box-1 .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        #box-1 .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+        #box-1 .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+        #box-1 .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
         #box-1 .social a:hover {
             opacity:0.5;
@@ -882,7 +882,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/2.png') no-repeat top center #160951;
+            background:url('/images/2.png') no-repeat top center #160951;
             overflow:hidden;
         }
 
@@ -891,7 +891,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/3.png') no-repeat top center;
+            background:url('/images/3.png') no-repeat top center;
         }
 
         #box-1-w::after {
@@ -904,7 +904,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/4.png') no-repeat top center;
+            background:url('/images/4.png') no-repeat top center;
         }
 
         #box-1-w::before {
@@ -917,7 +917,7 @@ a.button-2:hover {
             top:75px;
             left:50%;
             z-index:2;
-            background:url('../images/1.png') no-repeat top center;
+            background:url('/images/1.png') no-repeat top center;
         }
 
         #box-1 {
@@ -1078,11 +1078,11 @@ a.button-2:hover {
             -khtml-border-radius:100%;
         }
 
-        #box-1 .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        #box-1 .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        #box-1 .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-        #box-1 .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-        #box-1 .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+        #box-1 .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        #box-1 .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        #box-1 .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+        #box-1 .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+        #box-1 .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
         #box-1 .social a:hover {
             opacity:0.5;
@@ -1095,7 +1095,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/2.png') no-repeat top center #160951;
+            background:url('/images/2.png') no-repeat top center #160951;
             overflow:hidden;
         }
 
@@ -1104,7 +1104,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/3.png') repeat top center;
+            background:url('/images/3.png') repeat top center;
         }
 
         #box-1-w::after {
@@ -1117,7 +1117,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/4.png') repeat top center;
+            background:url('/images/4.png') repeat top center;
         }
 
         #box-1-w::before {
@@ -1131,7 +1131,7 @@ a.button-2:hover {
             bottom:-140px;
             left:50%;
             z-index:2;
-            background:url('../images/1.png') no-repeat top center;
+            background:url('/images/1.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -1299,11 +1299,11 @@ a.button-2:hover {
             -khtml-border-radius:100%;
         }
 
-        #box-1 .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        #box-1 .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        #box-1 .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-        #box-1 .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-        #box-1 .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+        #box-1 .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        #box-1 .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        #box-1 .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+        #box-1 .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+        #box-1 .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
         #box-1 .social a:hover {
             opacity:0.5;
@@ -1317,7 +1317,7 @@ a.button-2:hover {
     padding:0;
     margin:0;
     position:relative;
-    background:url('../images/21.png') no-repeat center 460px #0e023c;
+    background:url('/images/21.png') no-repeat center 460px #0e023c;
 }
 
 #box-2-w::after {
@@ -1330,7 +1330,7 @@ a.button-2:hover {
     top:0;
     left:0;
     z-index:2;
-    background:url('../images/16.png') no-repeat top center;
+    background:url('/images/16.png') no-repeat top center;
 }
 
 #box-2 {
@@ -1403,11 +1403,11 @@ a.button-2:hover {
 .p2-4 { margin:30px 0 0 30px; min-height:80px; }
 .p2-5 { margin:30px 0 0 30px; min-height:80px; }
 
-#box-2 p.p2-1 { background:url('../images/7.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-#box-2 p.p2-2 { background:url('../images/8.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-#box-2 p.p2-3 { background:url('../images/9.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-#box-2 p.p2-4 { background:url('../images/10.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-#box-2 p.p2-5 { background:url('../images/11.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+#box-2 p.p2-1 { background:url('/images/7.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+#box-2 p.p2-2 { background:url('/images/8.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+#box-2 p.p2-3 { background:url('/images/9.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+#box-2 p.p2-4 { background:url('/images/10.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+#box-2 p.p2-5 { background:url('/images/11.png') no-repeat 0 0 rgba(36,21,124,0.2); }
 
 #box-2 p::after {
     content:'';
@@ -1419,7 +1419,7 @@ a.button-2:hover {
     top:0;
     left:0;
     z-index:auto;
-    background:url('../images/5.png') no-repeat bottom left;
+    background:url('/images/5.png') no-repeat bottom left;
 }
 
 #box-2 p::before {
@@ -1432,7 +1432,7 @@ a.button-2:hover {
     top:0;
     left:0;
     z-index:auto;
-    background:url('../images/6.png') no-repeat top right;
+    background:url('/images/6.png') no-repeat top right;
 }
 
     @media all and (max-width: 1200px) {
@@ -1441,7 +1441,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/21.png') no-repeat center 460px #0e023c;
+            background:url('/images/21.png') no-repeat center 460px #0e023c;
         }
 
         #box-2-w::after {
@@ -1454,7 +1454,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #box-2 {
@@ -1527,11 +1527,11 @@ a.button-2:hover {
         .p2-4 { margin:30px 0 0 30px; min-height:80px; }
         .p2-5 { margin:30px 0 0 30px; min-height:80px; }
 
-        #box-2 p.p2-1 { background:url('../images/7.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-2 { background:url('../images/8.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-3 { background:url('../images/9.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-4 { background:url('../images/10.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-5 { background:url('../images/11.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-1 { background:url('/images/7.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-2 { background:url('/images/8.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-3 { background:url('/images/9.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-4 { background:url('/images/10.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-5 { background:url('/images/11.png') no-repeat -10px 0 rgba(36,21,124,0.2); }
 
         #box-2 p::after {
             content:'';
@@ -1543,7 +1543,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:auto;
-            background:url('../images/5.png') no-repeat bottom left;
+            background:url('/images/5.png') no-repeat bottom left;
         }
 
         #box-2 p::before {
@@ -1556,7 +1556,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:auto;
-            background:url('../images/6.png') no-repeat top right;
+            background:url('/images/6.png') no-repeat top right;
         }
     }
 
@@ -1566,7 +1566,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/21.png') no-repeat center 600px #0e023c;
+            background:url('/images/21.png') no-repeat center 600px #0e023c;
         }
 
         #box-2-w::after {
@@ -1579,7 +1579,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #box-2 {
@@ -1652,11 +1652,11 @@ a.button-2:hover {
         .p2-4 { margin:20px 0 0 0; min-height:80px; }
         .p2-5 { margin:20px 0 0 20px; min-height:80px; }
 
-        #box-2 p.p2-1 { background:url('../images/7.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-2 { background:url('../images/8.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-3 { background:url('../images/9.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-4 { background:url('../images/10.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-5 { background:url('../images/11.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-1 { background:url('/images/7.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-2 { background:url('/images/8.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-3 { background:url('/images/9.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-4 { background:url('/images/10.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-5 { background:url('/images/11.png') no-repeat 0 0 rgba(36,21,124,0.2); }
 
         #box-2 p::after {
             content:'';
@@ -1668,7 +1668,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:auto;
-            background:url('../images/5.png') no-repeat bottom left;
+            background:url('/images/5.png') no-repeat bottom left;
         }
 
         #box-2 p::before {
@@ -1681,7 +1681,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:auto;
-            background:url('../images/6.png') no-repeat top right;
+            background:url('/images/6.png') no-repeat top right;
         }
     }
 
@@ -1691,7 +1691,7 @@ a.button-2:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/21.png') no-repeat center 1160px #0e023c;
+            background:url('/images/21.png') no-repeat center 1160px #0e023c;
         }
 
         #box-2-w::after {
@@ -1704,7 +1704,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #box-2 {
@@ -1777,11 +1777,11 @@ a.button-2:hover {
         .p2-4 { margin:20px 0 0 0; min-height:80px; }
         .p2-5 { margin:20px 0 0 0; min-height:80px; }
 
-        #box-2 p.p2-1 { background:url('../images/7.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-2 { background:url('../images/8.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-3 { background:url('../images/9.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-4 { background:url('../images/10.png') no-repeat 0 0 rgba(36,21,124,0.2); }
-        #box-2 p.p2-5 { background:url('../images/11.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-1 { background:url('/images/7.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-2 { background:url('/images/8.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-3 { background:url('/images/9.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-4 { background:url('/images/10.png') no-repeat 0 0 rgba(36,21,124,0.2); }
+        #box-2 p.p2-5 { background:url('/images/11.png') no-repeat 0 0 rgba(36,21,124,0.2); }
 
         #box-2 p::after {
             content:'';
@@ -1793,7 +1793,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:auto;
-            background:url('../images/5.png') no-repeat bottom left;
+            background:url('/images/5.png') no-repeat bottom left;
         }
 
         #box-2 p::before {
@@ -1806,7 +1806,7 @@ a.button-2:hover {
             top:0;
             left:0;
             z-index:auto;
-            background:url('../images/6.png') no-repeat top right;
+            background:url('/images/6.png') no-repeat top right;
         }
     }
 
@@ -1829,7 +1829,7 @@ a.button-2:hover {
     right:50%;
     bottom:0;
     z-index:2;
-    background:url('../images/17.png') no-repeat bottom center;
+    background:url('/images/17.png') no-repeat bottom center;
 }
 
 #box-3 {
@@ -1908,7 +1908,7 @@ a.button-3::after {
     height:60px;
     padding:0;
     margin:0;
-    background:url('../images/14.png') no-repeat center center #635cf0;
+    background:url('/images/14.png') no-repeat center center #635cf0;
     position:absolute;
     top:0;
     right:0;
@@ -1936,7 +1936,7 @@ a.appstore {
     float:left;
     outline:none;
     cursor:pointer;
-    background:url('../images/12.png') no-repeat center center #ffffff;
+    background:url('/images/12.png') no-repeat center center #ffffff;
     border:none;
     border-radius:10px;
     -webkit-border-radius:10px;
@@ -1954,7 +1954,7 @@ a.googleplay {
     float:left;
     outline:none;
     cursor:pointer;
-    background:url('../images/13.png') no-repeat center center #ffffff;
+    background:url('/images/13.png') no-repeat center center #ffffff;
     border:none;
     border-radius:10px;
     -webkit-border-radius:10px;
@@ -1986,7 +1986,7 @@ a.googleplay:hover {
             right:50%;
             bottom:0;
             z-index:2;
-            background:url('../images/17.png') no-repeat bottom center;
+            background:url('/images/17.png') no-repeat bottom center;
         }
 
         #box-3 {
@@ -2065,7 +2065,7 @@ a.googleplay:hover {
             height:60px;
             padding:0;
             margin:0;
-            background:url('../images/14.png') no-repeat center center #635cf0;
+            background:url('/images/14.png') no-repeat center center #635cf0;
             position:absolute;
             top:0;
             right:0;
@@ -2093,7 +2093,7 @@ a.googleplay:hover {
             float:left;
             outline:none;
             cursor:pointer;
-            background:url('../images/12.png') no-repeat center center #ffffff;
+            background:url('/images/12.png') no-repeat center center #ffffff;
             border:none;
             border-radius:10px;
             -webkit-border-radius:10px;
@@ -2111,7 +2111,7 @@ a.googleplay:hover {
             float:left;
             outline:none;
             cursor:pointer;
-            background:url('../images/13.png') no-repeat center center #ffffff;
+            background:url('/images/13.png') no-repeat center center #ffffff;
             border:none;
             border-radius:10px;
             -webkit-border-radius:10px;
@@ -2144,7 +2144,7 @@ a.googleplay:hover {
             right:50%;
             bottom:0;
             z-index:2;
-            background:url('../images/17.png') no-repeat top center;
+            background:url('/images/17.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -2227,7 +2227,7 @@ a.googleplay:hover {
             height:60px;
             padding:0;
             margin:0;
-            background:url('../images/14.png') no-repeat center center #635cf0;
+            background:url('/images/14.png') no-repeat center center #635cf0;
             position:absolute;
             top:0;
             right:0;
@@ -2255,7 +2255,7 @@ a.googleplay:hover {
             float:left;
             outline:none;
             cursor:pointer;
-            background:url('../images/12.png') no-repeat center center #ffffff;
+            background:url('/images/12.png') no-repeat center center #ffffff;
             border:none;
             border-radius:10px;
             -webkit-border-radius:10px;
@@ -2273,7 +2273,7 @@ a.googleplay:hover {
             float:left;
             outline:none;
             cursor:pointer;
-            background:url('../images/13.png') no-repeat center center #ffffff;
+            background:url('/images/13.png') no-repeat center center #ffffff;
             border:none;
             border-radius:10px;
             -webkit-border-radius:10px;
@@ -2306,7 +2306,7 @@ a.googleplay:hover {
             right:50%;
             bottom:0;
             z-index:2;
-            background:url('../images/17.png') no-repeat top center;
+            background:url('/images/17.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -2393,7 +2393,7 @@ a.googleplay:hover {
             height:60px;
             padding:0;
             margin:0;
-            background:url('../images/14.png') no-repeat center center #635cf0;
+            background:url('/images/14.png') no-repeat center center #635cf0;
             position:absolute;
             top:0;
             right:0;
@@ -2421,7 +2421,7 @@ a.googleplay:hover {
             float:left;
             outline:none;
             cursor:pointer;
-            background:url('../images/12.png') no-repeat center center #ffffff;
+            background:url('/images/12.png') no-repeat center center #ffffff;
             border:none;
             border-radius:10px;
             -webkit-border-radius:10px;
@@ -2439,7 +2439,7 @@ a.googleplay:hover {
             float:left;
             outline:none;
             cursor:pointer;
-            background:url('../images/13.png') no-repeat center center #ffffff;
+            background:url('/images/13.png') no-repeat center center #ffffff;
             border:none;
             border-radius:10px;
             -webkit-border-radius:10px;
@@ -2461,7 +2461,7 @@ a.googleplay:hover {
     padding:0;
     margin:0;
     position:relative;
-    background:url('../images/16.png') no-repeat top center #0e023c;
+    background:url('/images/16.png') no-repeat top center #0e023c;
 }
 
 #box-4-w::after {
@@ -2474,7 +2474,7 @@ a.googleplay:hover {
     top:-900px;
     left:50%;
     z-index:2;
-    background:url('../images/15.png') no-repeat top center;
+    background:url('/images/15.png') no-repeat top center;
 }
 
 #box-4 {
@@ -2528,7 +2528,7 @@ a.googleplay:hover {
     bottom:-30px;
     left:50%;
     z-index:-1;
-    background:url('../images/20.png') no-repeat top center;
+    background:url('/images/20.png') no-repeat top center;
 }
 
 .videobox::before {
@@ -2593,7 +2593,7 @@ a.googleplay:hover {
     cursor:pointer;
     -webkit-appearance: none;
     -moz-appearance:none;
-    background:url('../images/play.png') no-repeat top center;
+    background:url('/images/play.png') no-repeat top center;
     border:none;
     border-radius:100%;
     -webkit-border-radius:100%;
@@ -2615,7 +2615,7 @@ a.googleplay:hover {
     top:0;
     left:0;
     z-index:10;
-    background:url('../images/play-2.png') no-repeat center center;
+    background:url('/images/play-2.png') no-repeat center center;
     border-radius:100%;
     -webkit-border-radius:100%;
     -moz-border-radius:100%;
@@ -2675,7 +2675,7 @@ a.googleplay:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center #0e023c;
+            background:url('/images/16.png') no-repeat top center #0e023c;
         }
 
         #box-4-w::after {
@@ -2688,7 +2688,7 @@ a.googleplay:hover {
             top:-900px;
             left:50%;
             z-index:2;
-            background:url('../images/15.png') no-repeat top center;
+            background:url('/images/15.png') no-repeat top center;
         }
 
         #box-4 {
@@ -2742,7 +2742,7 @@ a.googleplay:hover {
             bottom:-30px;
             left:50%;
             z-index:-1;
-            background:url('../images/20.png') no-repeat top center;
+            background:url('/images/20.png') no-repeat top center;
         }
 
         .videobox::before {
@@ -2807,7 +2807,7 @@ a.googleplay:hover {
             cursor:pointer;
             -webkit-appearance: none;
             -moz-appearance:none;
-            background:url('../images/play.png') no-repeat top center;
+            background:url('/images/play.png') no-repeat top center;
             border:none;
             border-radius:100%;
             -webkit-border-radius:100%;
@@ -2829,7 +2829,7 @@ a.googleplay:hover {
             top:0;
             left:0;
             z-index:10;
-            background:url('../images/play-2.png') no-repeat center center;
+            background:url('/images/play-2.png') no-repeat center center;
             border-radius:100%;
             -webkit-border-radius:100%;
             -moz-border-radius:100%;
@@ -2890,7 +2890,7 @@ a.googleplay:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center #0e023c;
+            background:url('/images/16.png') no-repeat top center #0e023c;
         }
 
         #box-4-w::after {
@@ -2903,7 +2903,7 @@ a.googleplay:hover {
             top:-900px;
             left:50%;
             z-index:2;
-            background:url('../images/15.png') no-repeat top center;
+            background:url('/images/15.png') no-repeat top center;
         }
 
         #box-4 {
@@ -2957,7 +2957,7 @@ a.googleplay:hover {
             bottom:-35px;
             left:50%;
             z-index:-1;
-            background:url('../images/20.png') no-repeat top center;
+            background:url('/images/20.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -3026,7 +3026,7 @@ a.googleplay:hover {
             cursor:pointer;
             -webkit-appearance: none;
             -moz-appearance:none;
-            background:url('../images/play.png') no-repeat top center;
+            background:url('/images/play.png') no-repeat top center;
             border:none;
             border-radius:100%;
             -webkit-border-radius:100%;
@@ -3048,7 +3048,7 @@ a.googleplay:hover {
             top:0;
             left:0;
             z-index:10;
-            background:url('../images/play-2.png') no-repeat center center;
+            background:url('/images/play-2.png') no-repeat center center;
             border-radius:100%;
             -webkit-border-radius:100%;
             -moz-border-radius:100%;
@@ -3109,7 +3109,7 @@ a.googleplay:hover {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center #0e023c;
+            background:url('/images/16.png') no-repeat top center #0e023c;
         }
 
         #box-4-w::after {
@@ -3122,7 +3122,7 @@ a.googleplay:hover {
             top:-900px;
             left:50%;
             z-index:2;
-            background:url('../images/15.png') no-repeat top center;
+            background:url('/images/15.png') no-repeat top center;
             display:none;
         }
 
@@ -3177,7 +3177,7 @@ a.googleplay:hover {
             bottom:-40px;
             left:50%;
             z-index:-1;
-            background:url('../images/20.png') no-repeat top center;
+            background:url('/images/20.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -3246,7 +3246,7 @@ a.googleplay:hover {
             cursor:pointer;
             -webkit-appearance: none;
             -moz-appearance:none;
-            background:url('../images/play.png') no-repeat top center;
+            background:url('/images/play.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -3272,7 +3272,7 @@ a.googleplay:hover {
             top:0;
             left:0;
             z-index:10;
-            background:url('../images/play-2.png') no-repeat center center;
+            background:url('/images/play-2.png') no-repeat center center;
             -webkit-background-size: 18px auto;
             -moz-background-size: 18px auto;
             -o-background-size: 18px auto;
@@ -3408,7 +3408,7 @@ a.googleplay:hover {
     top:10px;
     left:10px;
     z-index:auto;
-    background:url('../images/22.png') no-repeat bottom left;
+    background:url('/images/22.png') no-repeat bottom left;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -3425,7 +3425,7 @@ a.googleplay:hover {
     top:10px;
     left:10px;
     z-index:auto;
-    background:url('../images/23.png') no-repeat top right;
+    background:url('/images/23.png') no-repeat top right;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -3517,7 +3517,7 @@ a.googleplay:hover {
             top:10px;
             left:10px;
             z-index:auto;
-            background:url('../images/22.png') no-repeat bottom left;
+            background:url('/images/22.png') no-repeat bottom left;
             border-radius:10px;
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
@@ -3534,7 +3534,7 @@ a.googleplay:hover {
             top:10px;
             left:10px;
             z-index:auto;
-            background:url('../images/23.png') no-repeat top right;
+            background:url('/images/23.png') no-repeat top right;
             border-radius:10px;
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
@@ -3627,7 +3627,7 @@ a.googleplay:hover {
             top:10px;
             left:10px;
             z-index:auto;
-            background:url('../images/22.png') no-repeat bottom left;
+            background:url('/images/22.png') no-repeat bottom left;
             border-radius:10px;
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
@@ -3644,7 +3644,7 @@ a.googleplay:hover {
             top:10px;
             left:10px;
             z-index:auto;
-            background:url('../images/23.png') no-repeat top right;
+            background:url('/images/23.png') no-repeat top right;
             border-radius:10px;
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
@@ -3737,7 +3737,7 @@ a.googleplay:hover {
             top:10px;
             left:10px;
             z-index:auto;
-            background:url('../images/22.png') no-repeat bottom left;
+            background:url('/images/22.png') no-repeat bottom left;
             border-radius:10px;
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
@@ -3754,7 +3754,7 @@ a.googleplay:hover {
             top:10px;
             left:10px;
             z-index:auto;
-            background:url('../images/23.png') no-repeat top right;
+            background:url('/images/23.png') no-repeat top right;
             border-radius:10px;
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
@@ -3821,7 +3821,7 @@ a.googleplay:hover {
 #bread-crumbs p a.home-crumbs {
     padding:0 0 0 20px;
     margin:0;
-    background:url('../images/18.png') no-repeat 0 9px;
+    background:url('/images/18.png') no-repeat 0 9px;
     display:inline-block;
 }
 
@@ -3891,7 +3891,7 @@ a.googleplay:hover {
         #bread-crumbs p a.home-crumbs {
             padding:0 0 0 20px;
             margin:0;
-            background:url('../images/18.png') no-repeat 0 9px;
+            background:url('/images/18.png') no-repeat 0 9px;
             display:inline-block;
         }
 
@@ -3962,7 +3962,7 @@ a.googleplay:hover {
         #bread-crumbs p a.home-crumbs {
             padding:0 0 0 20px;
             margin:0;
-            background:url('../images/18.png') no-repeat 0 9px;
+            background:url('/images/18.png') no-repeat 0 9px;
             display:inline-block;
         }
 
@@ -4033,7 +4033,7 @@ a.googleplay:hover {
         #bread-crumbs p a.home-crumbs {
             padding:0 0 0 20px;
             margin:0;
-            background:url('../images/18.png') no-repeat 0 9px;
+            background:url('/images/18.png') no-repeat 0 9px;
             display:inline-block;
         }
 
@@ -4107,7 +4107,7 @@ a.googleplay:hover {
     margin:0;
     color:#dad8f7;
     cursor:default;
-    background:url('../images/51.png') no-repeat 0 13px;
+    background:url('/images/51.png') no-repeat 0 13px;
     float:left;
 }
 
@@ -4122,7 +4122,7 @@ a.googleplay:hover {
     margin:0 0 0 20px;
     color:#dad8f7;
     cursor:default;
-    background:url('../images/52.png') no-repeat 0 14px;
+    background:url('/images/52.png') no-repeat 0 14px;
     float:left;
 }
 
@@ -4164,9 +4164,9 @@ a.googleplay:hover {
     -khtml-border-radius:100%;
 }
 
-.news-project-page-info .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-.news-project-page-info .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-.news-project-page-info .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
+.news-project-page-info .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+.news-project-page-info .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+.news-project-page-info .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
 
 .news-project-page-info .social a:hover {
     opacity:0.5;
@@ -4338,7 +4338,7 @@ a.googleplay:hover {
             margin:0;
             color:#dad8f7;
             cursor:default;
-            background:url('../images/51.png') no-repeat 0 13px;
+            background:url('/images/51.png') no-repeat 0 13px;
             float:left;
         }
 
@@ -4353,7 +4353,7 @@ a.googleplay:hover {
             margin:0 0 0 20px;
             color:#dad8f7;
             cursor:default;
-            background:url('../images/52.png') no-repeat 0 14px;
+            background:url('/images/52.png') no-repeat 0 14px;
             float:left;
         }
 
@@ -4395,9 +4395,9 @@ a.googleplay:hover {
             -khtml-border-radius:100%;
         }
 
-        .news-project-page-info .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        .news-project-page-info .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        .news-project-page-info .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
+        .news-project-page-info .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        .news-project-page-info .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        .news-project-page-info .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
 
         .news-project-page-info .social a:hover {
             opacity:0.5;
@@ -4579,7 +4579,7 @@ a.googleplay:hover {
             margin:0;
             color:#dad8f7;
             cursor:default;
-            background:url('../images/51.png') no-repeat 0 13px;
+            background:url('/images/51.png') no-repeat 0 13px;
             float:left;
         }
 
@@ -4594,7 +4594,7 @@ a.googleplay:hover {
             margin:0 0 0 20px;
             color:#dad8f7;
             cursor:default;
-            background:url('../images/52.png') no-repeat 0 14px;
+            background:url('/images/52.png') no-repeat 0 14px;
             float:left;
         }
 
@@ -4636,9 +4636,9 @@ a.googleplay:hover {
             -khtml-border-radius:100%;
         }
 
-        .news-project-page-info .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        .news-project-page-info .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        .news-project-page-info .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
+        .news-project-page-info .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        .news-project-page-info .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        .news-project-page-info .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
 
         .news-project-page-info .social a:hover {
             opacity:0.5;
@@ -4816,7 +4816,7 @@ a.googleplay:hover {
             margin:0;
             color:#dad8f7;
             cursor:default;
-            background:url('../images/51.png') no-repeat 0 13px;
+            background:url('/images/51.png') no-repeat 0 13px;
             float:none;
             display:inline-block;
         }
@@ -4832,7 +4832,7 @@ a.googleplay:hover {
             margin:0 0 0 20px;
             color:#dad8f7;
             cursor:default;
-            background:url('../images/52.png') no-repeat 0 14px;
+            background:url('/images/52.png') no-repeat 0 14px;
             float:none;
             display:inline-block;
         }
@@ -4876,9 +4876,9 @@ a.googleplay:hover {
             -khtml-border-radius:100%;
         }
 
-        .news-project-page-info .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        .news-project-page-info .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        .news-project-page-info .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
+        .news-project-page-info .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        .news-project-page-info .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        .news-project-page-info .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
 
         .news-project-page-info .social a:hover {
             opacity:0.5;
@@ -5015,7 +5015,7 @@ a.googleplay:hover {
     padding:40px 0 0 0;
     margin:0;
     position:relative;
-    background:url('../images/16.png') no-repeat top center;
+    background:url('/images/16.png') no-repeat top center;
 }
 
 #news-project {
@@ -5088,7 +5088,7 @@ a.news-project::after {
     height:100%;
     padding:0;
     margin:0;
-    background:url('../images/28.png') no-repeat bottom center;
+    background:url('/images/28.png') no-repeat bottom center;
     position:absolute;
     top:0;
     left:0;
@@ -5296,7 +5296,7 @@ a.active-page-button {
             padding:40px 0 0 0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #news-project {
@@ -5375,7 +5375,7 @@ a.active-page-button {
             height:100%;
             padding:0;
             margin:0;
-            background:url('../images/28.png') no-repeat bottom center;
+            background:url('/images/28.png') no-repeat bottom center;
             position:absolute;
             top:0;
             left:0;
@@ -5588,7 +5588,7 @@ a.active-page-button {
             padding:40px 0 0 0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #news-project {
@@ -5667,7 +5667,7 @@ a.active-page-button {
             height:100%;
             padding:0;
             margin:0;
-            background:url('../images/28.png') no-repeat bottom center;
+            background:url('/images/28.png') no-repeat bottom center;
             position:absolute;
             top:0;
             left:0;
@@ -5884,7 +5884,7 @@ a.active-page-button {
             padding:25px 0 0 0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #news-project {
@@ -5963,7 +5963,7 @@ a.active-page-button {
             height:100%;
             padding:0;
             margin:0;
-            background:url('../images/28.png') no-repeat bottom center;
+            background:url('/images/28.png') no-repeat bottom center;
             position:absolute;
             top:0;
             left:0;
@@ -6169,7 +6169,7 @@ a.active-page-button {
     padding:0;
     margin:0;
     position:relative;
-    background:url('../images/38.png') no-repeat bottom center #0e023c;
+    background:url('/images/38.png') no-repeat bottom center #0e023c;
 }
 
 #box-6-w::after {
@@ -6182,7 +6182,7 @@ a.active-page-button {
     top:0;
     left:0;
     z-index:2;
-    background:url('../images/16.png') no-repeat top center;
+    background:url('/images/16.png') no-repeat top center;
 }
 
 #box-6-w::before {
@@ -6195,7 +6195,7 @@ a.active-page-button {
     top:50px;
     right:50%;
     z-index:2;
-    background:url('../images/37.png') no-repeat top left;
+    background:url('/images/37.png') no-repeat top left;
 }
 
 #box-6 {
@@ -6333,7 +6333,7 @@ a.box-6::after {
     height:100%;
     padding:0;
     margin:0;
-    background:url('../images/28.png') no-repeat bottom center;
+    background:url('/images/28.png') no-repeat bottom center;
     position:absolute;
     top:0;
     left:0;
@@ -6392,7 +6392,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/38.png') no-repeat bottom center #0e023c;
+            background:url('/images/38.png') no-repeat bottom center #0e023c;
         }
 
         #box-6-w::after {
@@ -6405,7 +6405,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #box-6-w::before {
@@ -6418,7 +6418,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             top:50px;
             right:50%;
             z-index:2;
-            background:url('../images/37.png') no-repeat top left;
+            background:url('/images/37.png') no-repeat top left;
         }
 
         #box-6 {
@@ -6556,7 +6556,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             height:100%;
             padding:0;
             margin:0;
-            background:url('../images/28.png') no-repeat bottom center;
+            background:url('/images/28.png') no-repeat bottom center;
             position:absolute;
             top:0;
             left:0;
@@ -6616,7 +6616,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/38.png') no-repeat bottom center #0e023c;
+            background:url('/images/38.png') no-repeat bottom center #0e023c;
         }
 
         #box-6-w::after {
@@ -6629,7 +6629,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #box-6-w::before {
@@ -6642,7 +6642,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             top:50px;
             right:50%;
             z-index:2;
-            background:url('../images/37.png') no-repeat top left;
+            background:url('/images/37.png') no-repeat top left;
             display:none;
         }
 
@@ -6781,7 +6781,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             height:100%;
             padding:0;
             margin:0;
-            background:url('../images/28.png') no-repeat bottom center;
+            background:url('/images/28.png') no-repeat bottom center;
             position:absolute;
             top:0;
             left:0;
@@ -6841,7 +6841,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/38.png') no-repeat bottom center #0e023c;
+            background:url('/images/38.png') no-repeat bottom center #0e023c;
         }
 
         #box-6-w::after {
@@ -6854,7 +6854,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             top:0;
             left:0;
             z-index:2;
-            background:url('../images/16.png') no-repeat top center;
+            background:url('/images/16.png') no-repeat top center;
         }
 
         #box-6-w::before {
@@ -6867,7 +6867,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             top:50px;
             right:50%;
             z-index:2;
-            background:url('../images/37.png') no-repeat top left;
+            background:url('/images/37.png') no-repeat top left;
             display:none;
         }
 
@@ -7006,7 +7006,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
             height:100%;
             padding:0;
             margin:0;
-            background:url('../images/28.png') no-repeat bottom center;
+            background:url('/images/28.png') no-repeat bottom center;
             position:absolute;
             top:0;
             left:0;
@@ -7088,7 +7088,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
     top:55px;
     right:-95px;
     z-index:auto;
-    background:url('../images/36.png') no-repeat top center;
+    background:url('/images/36.png') no-repeat top center;
 }
 
 #box-7 h2 {
@@ -7153,7 +7153,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     -khtml-border-radius:10px;
-    background:url('../images/34.png') no-repeat 175px center #ffffff;
+    background:url('/images/34.png') no-repeat 175px center #ffffff;
 }
 
 .formbox input:-moz-placeholder {color:#0e023c;  }
@@ -7161,7 +7161,7 @@ a.box-6:hover p, a.box-6:not(:hover) p {
 
 .formbox input.error:-moz-placeholder {  color:#ff0000;  }
 .formbox input.error::-webkit-input-placeholder {  color:#ff0000;  }
-.formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('../images/35.png') no-repeat 175px center #ffffff;  }
+.formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('/images/35.png') no-repeat 175px center #ffffff;  }
 
 input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
 input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
@@ -7201,7 +7201,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
     height:60px;
     padding:0;
     margin:0;
-    background:url('../images/33.png') no-repeat center center #635cf0;
+    background:url('/images/33.png') no-repeat center center #635cf0;
     position:absolute;
     top:0;
     right:0;
@@ -7285,7 +7285,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             top:55px;
             right:-125px;
             z-index:auto;
-            background:url('../images/36.png') no-repeat top center;
+            background:url('/images/36.png') no-repeat top center;
         }
 
         #box-7 h2 {
@@ -7350,7 +7350,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
             -khtml-border-radius:10px;
-            background:url('../images/34.png') no-repeat 175px center #ffffff;
+            background:url('/images/34.png') no-repeat 175px center #ffffff;
         }
 
         .formbox input:-moz-placeholder {color:#0e023c;  }
@@ -7358,7 +7358,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
 
         .formbox input.error:-moz-placeholder {  color:#ff0000;  }
         .formbox input.error::-webkit-input-placeholder {  color:#ff0000;  }
-        .formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('../images/35.png') no-repeat 175px center #ffffff;  }
+        .formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('/images/35.png') no-repeat 175px center #ffffff;  }
 
         input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
         input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
@@ -7398,7 +7398,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             height:60px;
             padding:0;
             margin:0;
-            background:url('../images/33.png') no-repeat center center #635cf0;
+            background:url('/images/33.png') no-repeat center center #635cf0;
             position:absolute;
             top:0;
             right:0;
@@ -7483,7 +7483,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             top:85px;
             right:-210px;
             z-index:auto;
-            background:url('../images/36.png') no-repeat top center;
+            background:url('/images/36.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -7557,7 +7557,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
             -khtml-border-radius:10px;
-            background:url('../images/34.png') no-repeat 175px center #ffffff;
+            background:url('/images/34.png') no-repeat 175px center #ffffff;
         }
 
         .formbox input:-moz-placeholder {color:#0e023c;  }
@@ -7565,7 +7565,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
 
         .formbox input.error:-moz-placeholder {  color:#ff0000;  }
         .formbox input.error::-webkit-input-placeholder {  color:#ff0000;  }
-        .formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('../images/35.png') no-repeat 175px center #ffffff;  }
+        .formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('/images/35.png') no-repeat 175px center #ffffff;  }
 
         input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
         input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
@@ -7605,7 +7605,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             height:60px;
             padding:0;
             margin:0;
-            background:url('../images/33.png') no-repeat center center #635cf0;
+            background:url('/images/33.png') no-repeat center center #635cf0;
             position:absolute;
             top:0;
             right:0;
@@ -7691,7 +7691,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             bottom:50px;
             right:50%;
             z-index:auto;
-            background:url('../images/36.png') no-repeat top center;
+            background:url('/images/36.png') no-repeat top center;
             -webkit-background-size: 100% auto;
             -moz-background-size: 100% auto;
             -o-background-size: 100% auto;
@@ -7765,7 +7765,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             -webkit-border-radius:10px;
             -moz-border-radius:10px;
             -khtml-border-radius:10px;
-            background:url('../images/34.png') no-repeat 275px center #ffffff;
+            background:url('/images/34.png') no-repeat 275px center #ffffff;
         }
 
         .formbox input:-moz-placeholder {color:#0e023c;  }
@@ -7773,7 +7773,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
 
         .formbox input.error:-moz-placeholder {  color:#ff0000;  }
         .formbox input.error::-webkit-input-placeholder {  color:#ff0000;  }
-        .formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('../images/35.png') no-repeat 275px center #ffffff;  }
+        .formbox input.error {  color:#ff0000;  border-color:#ff0000;  background:url('/images/35.png') no-repeat 275px center #ffffff;  }
 
         input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
         input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
@@ -7813,7 +7813,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             height:60px;
             padding:0;
             margin:0;
-            background:url('../images/33.png') no-repeat center center #635cf0;
+            background:url('/images/33.png') no-repeat center center #635cf0;
             position:absolute;
             top:0;
             right:0;
@@ -7878,7 +7878,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
     padding:0;
     margin:0;
     position:relative;
-    background:url('../images/16.png') no-repeat top center #0e023c;
+    background:url('/images/16.png') no-repeat top center #0e023c;
     z-index:5;
 }
 
@@ -7904,7 +7904,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
     color:#ffffff;
     cursor:pointer;
     position:relative;
-    background:url('../images/logo.png') no-repeat 0 0;
+    background:url('/images/logo.png') no-repeat 0 0;
     float:left;
 }
 
@@ -7959,11 +7959,11 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
     -khtml-border-radius:100%;
 }
 
-#bottom .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-#bottom .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-#bottom .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-#bottom .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-#bottom .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+#bottom .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+#bottom .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+#bottom .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+#bottom .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+#bottom .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
 #bottom .social a:hover {
     opacity:0.5;
@@ -7975,7 +7975,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center #0e023c;
+            background:url('/images/16.png') no-repeat top center #0e023c;
             z-index:5;
         }
 
@@ -8001,7 +8001,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             color:#ffffff;
             cursor:pointer;
             position:relative;
-            background:url('../images/logo.png') no-repeat 0 0;
+            background:url('/images/logo.png') no-repeat 0 0;
             float:left;
         }
 
@@ -8056,11 +8056,11 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             -khtml-border-radius:100%;
         }
 
-        #bottom .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        #bottom .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        #bottom .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-        #bottom .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-        #bottom .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+        #bottom .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        #bottom .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        #bottom .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+        #bottom .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+        #bottom .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
         #bottom .social a:hover {
             opacity:0.5;
@@ -8073,7 +8073,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center #0e023c;
+            background:url('/images/16.png') no-repeat top center #0e023c;
             z-index:5;
         }
 
@@ -8099,7 +8099,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             color:#ffffff;
             cursor:pointer;
             position:relative;
-            background:url('../images/logo.png') no-repeat 0 0;
+            background:url('/images/logo.png') no-repeat 0 0;
             float:left;
         }
 
@@ -8154,11 +8154,11 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             -khtml-border-radius:100%;
         }
 
-        #bottom .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        #bottom .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        #bottom .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-        #bottom .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-        #bottom .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+        #bottom .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        #bottom .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        #bottom .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+        #bottom .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+        #bottom .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
         #bottom .social a:hover {
             opacity:0.5;
@@ -8171,7 +8171,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             padding:0;
             margin:0;
             position:relative;
-            background:url('../images/16.png') no-repeat top center #0e023c;
+            background:url('/images/16.png') no-repeat top center #0e023c;
             z-index:5;
         }
 
@@ -8197,7 +8197,7 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             color:#ffffff;
             cursor:pointer;
             position:relative;
-            background:url('../images/logo.png') no-repeat 0 0;
+            background:url('/images/logo.png') no-repeat 0 0;
             float:none;
             display:inline-block;
         }
@@ -8256,11 +8256,11 @@ input:focus:-ms-input-placeholder      {opacity: 0.3; transition: opacity 0.3s e
             -khtml-border-radius:100%;
         }
 
-        #bottom .social a.facebook { background:url('../images/soc-1.png') no-repeat center center; }
-        #bottom .social a.telegram { background:url('../images/soc-2.png') no-repeat center center; }
-        #bottom .social a.twitter { background:url('../images/soc-3.png') no-repeat center center; }
-        #bottom .social a.youtube { background:url('../images/soc-4.png') no-repeat center center; }
-        #bottom .social a.bitcoin { background:url('../images/soc-5.png') no-repeat center center; }
+        #bottom .social a.facebook { background:url('/images/soc-1.png') no-repeat center center; }
+        #bottom .social a.telegram { background:url('/images/soc-2.png') no-repeat center center; }
+        #bottom .social a.twitter { background:url('/images/soc-3.png') no-repeat center center; }
+        #bottom .social a.youtube { background:url('/images/soc-4.png') no-repeat center center; }
+        #bottom .social a.bitcoin { background:url('/images/soc-5.png') no-repeat center center; }
 
         #bottom .social a:hover {
             opacity:0.5;
