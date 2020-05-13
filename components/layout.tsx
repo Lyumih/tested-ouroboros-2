@@ -13,6 +13,14 @@ export default function Layout({
     <div className="container page">
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="/js/lightGallery/lightGallery.css"
+          type="text/css"
+          rel="stylesheet"
+        />
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
         <meta name="og:title" content={siteTitle} />
       </Head>
       <header>
@@ -86,6 +94,12 @@ export default function Layout({
           </div>
         </div>
       </footer>
+      <script src="/js/jquery-1.8.2.min.js"></script>
+      <script src="/js/jquery.validate.js"></script>
+      <script src="/js/jquery.transit.min.js"></script>
+      <script src="/js/lightGallery/lightGallery.js"></script>
+      <script src="/js/jquery.form.js"></script>
+      <script src="/js/main.js"></script>
     </div>
   );
 }

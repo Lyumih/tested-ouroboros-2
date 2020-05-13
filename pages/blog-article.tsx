@@ -7,9 +7,6 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section>Секция 1</section>
-      <section>Секция 2</section>
-      <section>Секция 3</section>
     </Layout>
   );
 }
