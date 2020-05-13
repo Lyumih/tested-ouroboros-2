@@ -1,13 +1,15 @@
 import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
 
 export default function Home() {
   return (
-    <div className="container">
+    <Layout>
       <Head>
-        <title>Blog</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>{siteTitle}</title>
       </Head>
-      <p>Blog</p>
-    </div>
+      <section>Секция 1</section>
+      <section>Секция 2</section>
+      <section>Секция 3</section>
+    </Layout>
   );
 }
