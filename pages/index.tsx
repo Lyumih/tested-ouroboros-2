@@ -97,7 +97,7 @@ export default function Home() {
           <div className="clear"></div>
         </div>
         {/* <!-- box-3 --> */}
-        <div id="box-3-w">
+        {/* <div id="box-3-w">
           <div id="box-3">
             <h2>
               Download <span>My Wallet</span>
@@ -115,7 +115,7 @@ export default function Home() {
             <a href="" className="googleplay"></a>
             <div className="clear"></div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- --> */}
         <div className="clear"></div>
       </div>
