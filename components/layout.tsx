@@ -13,7 +13,7 @@ export default function Layout({
   home?: boolean;
 }) {
   return (
-    <div className="page">
+    <div id="page">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link
