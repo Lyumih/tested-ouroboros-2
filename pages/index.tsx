@@ -1,12 +1,15 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 
+// import '../styles/global/scss'
+
 export default function Home() {
   return (
     <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <div className="example">Hello World!</div>
       {/* <!-- box-1 --> */}
       <div id="box-1-w">
         <div id="box-1-w1">

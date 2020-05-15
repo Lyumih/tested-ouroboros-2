@@ -2,6 +2,8 @@ import Head from "next/head";
 
 export const siteTitle = "Ouroboros. ";
 
+
+
 export default function Layout({
   children,
   home,
