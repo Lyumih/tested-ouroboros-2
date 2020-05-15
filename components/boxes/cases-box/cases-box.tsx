@@ -2,9 +2,9 @@ import "./cases-box.module.scss";
 
 export default function CasesBox() {
   return (
-    <div id="box-2-w" name="cases">
+    <div id="box-2-w">
         <div id="box-2">
-          <h2>
+          <h2 id="cases">
             What Makes <br />
             Us <span>Unique</span>
           </h2>

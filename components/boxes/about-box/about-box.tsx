@@ -2,9 +2,9 @@ import "./about-box.module.scss";
 
 export default function AboutBox() {
   return (
-    <div id="box-4-w" name="about">
+    <div id="box-4-w">
       <div id="box-4">
-        <h2>
+        <h2 id="about">
           Learn more about <span>Ouroboros</span>
         </h2>
         <div className="lightGallery">

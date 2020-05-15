@@ -4,8 +4,8 @@ export default function PromoBox() {
   return (
     <div id="box-1-w">
       <div id="box-1-w1">
-        <div id="box-1" name={"promo-box"}>
-          <div className="social">
+        <div id="box-1">
+          <div className="social" id="promo">
             <a
               href="https://www.facebook.com/"
               target="_blank"
