@@ -1,0 +1,647 @@
+/* box-3 */
+
+#box-3-w {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 907px;
+    height: 479px;
+    padding: 0;
+    margin: 0 -960px 0 0;
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    z-index: 2;
+    background: url('/images/17.png') no-repeat bottom center;
+  }
+}
+
+#box-3 {
+  width: 1020px;
+  min-height: 250px;
+  padding: 100px 0 170px 120px;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+  z-index: 5;
+
+  h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    font-size: 48px;
+    line-height: 55px;
+    padding: 0;
+    margin: 0;
+    color: #dad8f7;
+    cursor: default;
+
+    span {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+    }
+  }
+
+  p {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    color: #dad8f7;
+    cursor: default;
+  }
+}
+
+a {
+  &.button-3 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 62px;
+    width: 110px;
+    height: 60px;
+    padding: 0 60px 0 30px;
+    margin: 30px 0 0 0;
+    display: block;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #ffffff;
+    background: #554df0;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      margin: 0;
+      background: url('/images/14.png') no-repeat center center #635cf0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: auto;
+      border-top-right-radius: 10px;
+      -webkit-border-top-right-radius: 10px;
+      -moz-border-top-right-radius: 10px;
+      -khtml-border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      -webkit-border-bottom-right-radius: 10px;
+      -moz-border-bottom-right-radius: 10px;
+      -khtml-border-bottom-right-radius: 10px;
+    }
+
+    &:hover {
+      background: #6a63f7;
+    }
+  }
+
+  &.appstore {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 30px 0 0 20px;
+    display: block;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    background: url('/images/12.png') no-repeat center center #ffffff;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    position: relative;
+  }
+
+  &.googleplay {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 30px 0 0 20px;
+    display: block;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    background: url('/images/13.png') no-repeat center center #ffffff;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    position: relative;
+  }
+
+  &.appstore:hover, &.googleplay:hover {
+    opacity: 0.75;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  #box-3-w {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 907px;
+      height: 479px;
+      padding: 0;
+      margin: 0 -920px 0 0;
+      position: absolute;
+      right: 50%;
+      bottom: 0;
+      z-index: 2;
+      background: url('/images/17.png') no-repeat bottom center;
+    }
+  }
+
+  #box-3 {
+    width: 960px;
+    min-height: 250px;
+    padding: 100px 0 170px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+
+    h2 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      text-align: left;
+      font-size: 48px;
+      line-height: 55px;
+      padding: 0;
+      margin: 0;
+      color: #dad8f7;
+      cursor: default;
+
+      span {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+
+    p {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      text-align: left;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 0;
+      margin: 20px 0 0 0;
+      color: #dad8f7;
+      cursor: default;
+    }
+  }
+
+  a {
+    &.button-3 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-align: left;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 62px;
+      width: 110px;
+      height: 60px;
+      padding: 0 60px 0 30px;
+      margin: 30px 0 0 0;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      color: #ffffff;
+      background: #554df0;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+
+      &::after {
+        content: '';
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        background: url('/images/14.png') no-repeat center center #635cf0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: auto;
+        border-top-right-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-top-right-radius: 10px;
+        -khtml-border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-bottom-right-radius: 10px;
+        -khtml-border-bottom-right-radius: 10px;
+      }
+
+      &:hover {
+        background: #6a63f7;
+      }
+    }
+
+    &.appstore {
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      margin: 30px 0 0 20px;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      background: url('/images/12.png') no-repeat center center #ffffff;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+    }
+
+    &.googleplay {
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      margin: 30px 0 0 20px;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      background: url('/images/13.png') no-repeat center center #ffffff;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+    }
+
+    &.appstore:hover, &.googleplay:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+@media all and (max-width: 1020px) {
+  #box-3-w {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 600px;
+      height: 280px;
+      padding: 0;
+      margin: 0 -640px 0 0;
+      position: absolute;
+      right: 50%;
+      bottom: 0;
+      z-index: 2;
+      background: url('/images/17.png') no-repeat top center;
+      -webkit-background-size: 100% auto;
+      -moz-background-size: 100% auto;
+      -o-background-size: 100% auto;
+      background-size: 100% auto;
+    }
+  }
+
+  #box-3 {
+    width: 660px;
+    min-height: 250px;
+    padding: 100px 0 200px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+
+    h2 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      text-align: left;
+      font-size: 42px;
+      line-height: 55px;
+      padding: 0;
+      margin: 0;
+      color: #dad8f7;
+      cursor: default;
+
+      span {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+
+    p {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      text-align: left;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 0;
+      margin: 20px 0 0 0;
+      color: #dad8f7;
+      cursor: default;
+    }
+  }
+
+  a {
+    &.button-3 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-align: left;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 62px;
+      width: 110px;
+      height: 60px;
+      padding: 0 60px 0 30px;
+      margin: 30px 0 0 0;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      color: #ffffff;
+      background: #554df0;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+
+      &::after {
+        content: '';
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        background: url('/images/14.png') no-repeat center center #635cf0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: auto;
+        border-top-right-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-top-right-radius: 10px;
+        -khtml-border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-bottom-right-radius: 10px;
+        -khtml-border-bottom-right-radius: 10px;
+      }
+
+      &:hover {
+        background: #6a63f7;
+      }
+    }
+
+    &.appstore {
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      margin: 30px 0 0 20px;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      background: url('/images/12.png') no-repeat center center #ffffff;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+    }
+
+    &.googleplay {
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      margin: 30px 0 0 20px;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      background: url('/images/13.png') no-repeat center center #ffffff;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+    }
+
+    &.appstore:hover, &.googleplay:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+@media all and (max-width: 720px) {
+  #box-3-w {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 600px;
+      height: 280px;
+      padding: 0;
+      margin: 0 -420px 0 0;
+      position: absolute;
+      right: 50%;
+      bottom: 0;
+      z-index: 2;
+      background: url('/images/17.png') no-repeat top center;
+      -webkit-background-size: 100% auto;
+      -moz-background-size: 100% auto;
+      -o-background-size: 100% auto;
+      background-size: 100% auto;
+    }
+  }
+
+  #box-3 {
+    width: 360px;
+    min-height: 250px;
+    padding: 80px 0 360px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+
+    h2 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      text-align: center;
+      font-size: 36px;
+      line-height: 42px;
+      padding: 0;
+      margin: 0;
+      color: #dad8f7;
+      cursor: default;
+
+      span {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+      }
+    }
+
+    p {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      text-align: center;
+      font-size: 17px;
+      line-height: 30px;
+      padding: 0;
+      margin: 20px 0 0 0;
+      color: #dad8f7;
+      cursor: default;
+
+      br {
+        display: none;
+      }
+    }
+  }
+
+  a {
+    &.button-3 {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-align: left;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 62px;
+      width: 110px;
+      height: 60px;
+      padding: 0 60px 0 30px;
+      margin: 30px 0 0 0;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      color: #ffffff;
+      background: #554df0;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+
+      &::after {
+        content: '';
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        background: url('/images/14.png') no-repeat center center #635cf0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: auto;
+        border-top-right-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-top-right-radius: 10px;
+        -khtml-border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-bottom-right-radius: 10px;
+        -khtml-border-bottom-right-radius: 10px;
+      }
+
+      &:hover {
+        background: #6a63f7;
+      }
+    }
+
+    &.appstore {
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      margin: 30px 0 0 20px;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      background: url('/images/12.png') no-repeat center center #ffffff;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+    }
+
+    &.googleplay {
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      margin: 30px 0 0 20px;
+      display: block;
+      float: left;
+      outline: none;
+      cursor: pointer;
+      background: url('/images/13.png') no-repeat center center #ffffff;
+      border: none;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      position: relative;
+    }
+
+    &.appstore:hover, &.googleplay:hover {
+      opacity: 0.75;
+    }
+  }
+}
