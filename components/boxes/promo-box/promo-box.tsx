@@ -1,4 +1,5 @@
 import "./promo-box.module.scss";
+import Link from "next/link";
 
 export default function PromoBox() {
   return (
@@ -26,7 +27,7 @@ export default function PromoBox() {
               target="_blank"
               className="youtube"
             ></a>
-            <a href="" target="_blank" className="bitcoin"></a>
+            <a href="#" target="_blank" className="bitcoin"></a>
             <div className="clear"></div>
           </div>
           <h1>
@@ -37,12 +38,17 @@ export default function PromoBox() {
             <br />
             for the future use in the real economic sector
           </h1>
-          <a href="" className="button-1">
-            Learn More
-          </a>
-          <a href="" className="button-2">
-            Start Using
-          </a>
+          <Link href="/#cases">
+            <a className="button-1">
+              Learn More
+            </a>
+          </Link>
+
+          <Link href="/#download-wallet">
+            <a className="button-2">
+              Start Using
+            </a>
+          </Link>
           <div className="clear"></div>
         </div>
       </div>

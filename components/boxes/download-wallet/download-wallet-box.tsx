@@ -4,7 +4,7 @@ export default function DownloadWalletBox() {
   return (
     <div id="box-3-w">
       <div id="box-3">
-        <h2>
+        <h2 id="download-wallet">
           Download <span>My Wallet</span>
         </h2>
         <p>
