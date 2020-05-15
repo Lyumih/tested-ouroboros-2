@@ -9,7 +9,6 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className="example">Hello World!</div>
       {/* <!-- box-1 --> */}
       <div id="box-1-w">
         <div id="box-1-w1">
