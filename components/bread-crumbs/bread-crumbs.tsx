@@ -8,10 +8,9 @@ export default function BreadCrumbs({ path }: { path: string }) {
         <p>
           <Link href="/">
             <a className="home-crumbs">Home</a>
-            
           </Link>
-              <span> / </span>
-              {path}
+          <span> / </span>
+          {path}
         </p>
         <div className="clear"></div>
       </div>

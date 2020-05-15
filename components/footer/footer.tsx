@@ -45,7 +45,7 @@ export default function Footer() {
               target="_blank"
               className="youtube"
             ></a>
-            <a href="" target="_blank" className="bitcoin"></a>
+            <a href="#" target="_blank" className="bitcoin"></a>
             <div className="clear"></div>
           </div>
           <div className="clear"></div>

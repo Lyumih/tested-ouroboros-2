@@ -13,11 +13,11 @@ export default function DownloadWalletBox() {
           <br />
           Also Available for Tails, Debian, and Ubuntu versions.
         </p>
-        <a href="" className="button-3">
+        <a href="#" className="button-3">
           WEB client
         </a>
-        <a href="" className="appstore"></a>
-        <a href="" className="googleplay"></a>
+        <a href="#" className="appstore"></a>
+        <a href="#" className="googleplay"></a>
         <div className="clear"></div>
       </div>
     </div>

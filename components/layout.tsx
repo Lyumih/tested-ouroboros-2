@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Header from './header/header'
-import Footer from './footer/footer'
-import './layout.module.scss'
+import Header from "./header/header";
+import Footer from "./footer/footer";
+import "./layout.module.scss";
 
 export const siteTitle = "Ouroboros";
 
@@ -28,7 +28,6 @@ export default function Layout({
       <Header />
       <main>{children}</main>
       <Footer />
-      
       <script src="/js/jquery-1.8.2.min.js"></script>
       <script src="/js/jquery.validate.js"></script>
       <script src="/js/jquery.transit.min.js"></script>
