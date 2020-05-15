@@ -1,0 +1,451 @@
+/* bottom */
+
+#bottom-w {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: url('/images/16.png') no-repeat top center #0e023c;
+  z-index: 5;
+}
+
+#bottom {
+  width: 1140px;
+  padding: 45px 0 45px 0;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+  a.logo {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 28px;
+    padding: 12px 0 0 50px;
+    margin: 0;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    background: url('/images/logo.png') no-repeat 0 0;
+    float: left;
+  }
+
+  .menu {
+    padding: 0;
+    margin: 0 0 0 75px;
+    position: relative;
+    text-align: center;
+    float: left;
+
+    a {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: left;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 0;
+      margin: 12px 25px 0 25px;
+      color: #ffffff;
+      cursor: pointer;
+      position: relative;
+      float: left;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .social {
+    width: 265px;
+    height: 38px;
+    padding: 0;
+    margin: 1px 0 0 0;
+    position: relative;
+    float: right;
+
+    a {
+      width: 36px;
+      height: 36px;
+      padding: 0;
+      margin: 0 0 0 15px;
+      position: relative;
+      float: left;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 100%;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -khtml-border-radius: 100%;
+
+      &.facebook {
+        background: url('/images/soc-1.png') no-repeat center center;
+      }
+
+      &.telegram {
+        background: url('/images/soc-2.png') no-repeat center center;
+      }
+
+      &.twitter {
+        background: url('/images/soc-3.png') no-repeat center center;
+      }
+
+      &.youtube {
+        background: url('/images/soc-4.png') no-repeat center center;
+      }
+
+      &.bitcoin {
+        background: url('/images/soc-5.png') no-repeat center center;
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1200px) {
+  #bottom-w {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: url('/images/16.png') no-repeat top center #0e023c;
+    z-index: 5;
+  }
+
+  #bottom {
+    width: 960px;
+    padding: 45px 0 45px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+    a.logo {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: left;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 20px;
+      min-height: 28px;
+      padding: 12px 0 0 50px;
+      margin: 0;
+      color: #ffffff;
+      cursor: pointer;
+      position: relative;
+      background: url('/images/logo.png') no-repeat 0 0;
+      float: left;
+    }
+
+    .menu {
+      padding: 0;
+      margin: 0 0 0 40px;
+      position: relative;
+      text-align: center;
+      float: left;
+
+      a {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0;
+        margin: 12px 15px 0 15px;
+        color: #ffffff;
+        cursor: pointer;
+        position: relative;
+        float: left;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .social {
+      width: 265px;
+      height: 38px;
+      padding: 0;
+      margin: 1px 0 0 0;
+      position: relative;
+      float: right;
+
+      a {
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        margin: 0 0 0 15px;
+        position: relative;
+        float: left;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -khtml-border-radius: 100%;
+
+        &.facebook {
+          background: url('/images/soc-1.png') no-repeat center center;
+        }
+
+        &.telegram {
+          background: url('/images/soc-2.png') no-repeat center center;
+        }
+
+        &.twitter {
+          background: url('/images/soc-3.png') no-repeat center center;
+        }
+
+        &.youtube {
+          background: url('/images/soc-4.png') no-repeat center center;
+        }
+
+        &.bitcoin {
+          background: url('/images/soc-5.png') no-repeat center center;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1020px) {
+  #bottom-w {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: url('/images/16.png') no-repeat top center #0e023c;
+    z-index: 5;
+  }
+
+  #bottom {
+    width: 660px;
+    padding: 45px 0 45px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+    a.logo {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: left;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 20px;
+      min-height: 28px;
+      padding: 12px 0 0 50px;
+      margin: 0;
+      color: #ffffff;
+      cursor: pointer;
+      position: relative;
+      background: url('/images/logo.png') no-repeat 0 0;
+      float: left;
+    }
+
+    .menu {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      text-align: center;
+      float: right;
+
+      a {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0;
+        margin: 12px 0 0 20px;
+        color: #ffffff;
+        cursor: pointer;
+        position: relative;
+        float: left;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .social {
+      width: 265px;
+      height: 38px;
+      padding: 0;
+      margin: 20px 0 0 0;
+      position: relative;
+      float: right;
+
+      a {
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        margin: 0 0 0 15px;
+        position: relative;
+        float: left;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -khtml-border-radius: 100%;
+
+        &.facebook {
+          background: url('/images/soc-1.png') no-repeat center center;
+        }
+
+        &.telegram {
+          background: url('/images/soc-2.png') no-repeat center center;
+        }
+
+        &.twitter {
+          background: url('/images/soc-3.png') no-repeat center center;
+        }
+
+        &.youtube {
+          background: url('/images/soc-4.png') no-repeat center center;
+        }
+
+        &.bitcoin {
+          background: url('/images/soc-5.png') no-repeat center center;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 720px) {
+  #bottom-w {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: url('/images/16.png') no-repeat top center #0e023c;
+    z-index: 5;
+  }
+
+  #bottom {
+    width: 360px;
+    padding: 45px 0 45px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+    a.logo {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: left;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 20px;
+      min-height: 28px;
+      padding: 12px 0 0 50px;
+      margin: 0 auto;
+      color: #ffffff;
+      cursor: pointer;
+      position: relative;
+      background: url('/images/logo.png') no-repeat 0 0;
+      float: none;
+      display: inline-block;
+    }
+
+    .menu {
+      padding: 0;
+      margin: 20px auto 0 auto;
+      position: relative;
+      text-align: center;
+      display: inline-block;
+      float: none;
+
+      a {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0;
+        margin: 10px 10px 0 10px;
+        color: #ffffff;
+        cursor: pointer;
+        position: relative;
+        float: none;
+        display: inline-block;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .social {
+      width: 290px;
+      height: 38px;
+      padding: 0;
+      margin: 30px auto 0 auto;
+      position: relative;
+      float: none;
+      display: inline-block;
+
+      a {
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        margin: 0 10px 0 10px;
+        position: relative;
+        float: left;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -khtml-border-radius: 100%;
+
+        &.facebook {
+          background: url('/images/soc-1.png') no-repeat center center;
+        }
+
+        &.telegram {
+          background: url('/images/soc-2.png') no-repeat center center;
+        }
+
+        &.twitter {
+          background: url('/images/soc-3.png') no-repeat center center;
+        }
+
+        &.youtube {
+          background: url('/images/soc-4.png') no-repeat center center;
+        }
+
+        &.bitcoin {
+          background: url('/images/soc-5.png') no-repeat center center;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
