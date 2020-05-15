@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export const siteTitle = "Ouroboros. ";
 
-
+import './layout.module.scss'
 
 export default function Layout({
   children,
@@ -12,7 +12,7 @@ export default function Layout({
   home?: boolean;
 }) {
   return (
-    <div className="container page">
+    <div className="page">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -22,7 +22,6 @@ export default function Layout({
         />
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-
         <meta name="og:title" content={siteTitle} />
       </Head>
       <header>
