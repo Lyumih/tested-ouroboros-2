@@ -1,0 +1,283 @@
+/* bread-crumbs */
+
+#bread-crumbs-w {
+  width: 100%;
+  padding: 100px 0 0 0;
+  margin: 0;
+  position: relative;
+  background: #0e023c;
+}
+
+#bread-crumbs {
+  width: 1140px;
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+  z-index: 5;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+  p {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    color: #6f6c98;
+    cursor: default;
+
+    a {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      text-align: left;
+      font-size: 16px;
+      line-height: 30px;
+      padding: 0;
+      margin: 0;
+      color: #ffffff;
+      cursor: pointer;
+
+      &.home-crumbs {
+        padding: 0 0 0 20px;
+        margin: 0;
+        background: url('/images/18.png') no-repeat 0 9px;
+        display: inline-block;
+      }
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    span {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      text-align: left;
+      font-size: 16px;
+      line-height: 30px;
+      padding: 0;
+      margin: 0;
+      color: #ffffff;
+      cursor: default;
+    }
+  }
+}
+
+@media all and (max-width: 1200px) {
+  #bread-crumbs-w {
+    width: 100%;
+    padding: 100px 0 0 0;
+    margin: 0;
+    position: relative;
+    background: #0e023c;
+  }
+
+  #bread-crumbs {
+    width: 960px;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+    p {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      text-align: left;
+      font-size: 16px;
+      line-height: 30px;
+      padding: 0;
+      margin: 0;
+      color: #6f6c98;
+      cursor: default;
+
+      a {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        cursor: pointer;
+
+        &.home-crumbs {
+          padding: 0 0 0 20px;
+          margin: 0;
+          background: url('/images/18.png') no-repeat 0 9px;
+          display: inline-block;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+
+      span {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        cursor: default;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1020px) {
+  #bread-crumbs-w {
+    width: 100%;
+    padding: 140px 0 0 0;
+    margin: 0;
+    position: relative;
+    background: #0e023c;
+  }
+
+  #bread-crumbs {
+    width: 660px;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+    p {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      text-align: left;
+      font-size: 16px;
+      line-height: 30px;
+      padding: 0;
+      margin: 0;
+      color: #6f6c98;
+      cursor: default;
+
+      a {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        cursor: pointer;
+
+        &.home-crumbs {
+          padding: 0 0 0 20px;
+          margin: 0;
+          background: url('/images/18.png') no-repeat 0 9px;
+          display: inline-block;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+
+      span {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        cursor: default;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 720px) {
+  #bread-crumbs-w {
+    width: 100%;
+    padding: 165px 0 0 0;
+    margin: 0;
+    position: relative;
+    background: #0e023c;
+  }
+
+  #bread-crumbs {
+    width: 360px;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    z-index: 5;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+    p {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      text-align: left;
+      font-size: 16px;
+      line-height: 30px;
+      padding: 0;
+      margin: 0;
+      color: #6f6c98;
+      cursor: default;
+
+      a {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        cursor: pointer;
+
+        &.home-crumbs {
+          padding: 0 0 0 20px;
+          margin: 0;
+          background: url('/images/18.png') no-repeat 0 9px;
+          display: inline-block;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+
+      span {
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        cursor: default;
+      }
+    }
+  }
+}

@@ -1,14 +1,15 @@
 /* font */
 
 @font-face {
-  font-family: 'Exo 2', sans-serif;
-  src: url('https://fonts.googleapis.com/css?family=Exo+2:100,300,400,500,700&display=swap&subset=cyrillic');
+  font-family: "Exo 2", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Exo+2:100,300,400,500,700&display=swap&subset=cyrillic");
 }
 
 /* body */
 
-html, body {
-  font-family: 'Exo 2', sans-serif;
+html,
+body {
+  font-family: "Exo 2", sans-serif;
   font-weight: 300;
   font-size: 16px;
   text-indent: 0;
@@ -26,19 +27,22 @@ html, body {
 }
 
 @media all and (max-width: 1200px) {
-  html, body {
+  html,
+  body {
     min-width: 1000px;
   }
 }
 
 @media all and (max-width: 1020px) {
-  html, body {
+  html,
+  body {
     min-width: 700px;
   }
 }
 
 @media all and (max-width: 720px) {
-  html, body {
+  html,
+  body {
     min-width: 400px;
   }
 }
@@ -54,7 +58,8 @@ html, body {
   background: #ffffff;
 }
 
-::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
   background: #ffffff;
 }
 
@@ -63,11 +68,13 @@ html, body {
   background: #0e023c;
 }
 
-::-webkit-scrollbar-corner, ::-webkit-resizer {
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
   background: #ffffff;
 }
 
-::selection, ::-moz-selection {
+::selection,
+::-moz-selection {
   color: #ffffff;
   background: #0e023c;
 }
@@ -79,11 +86,15 @@ body img {
 a {
   text-decoration: none;
 
-  &:link, &:visited, &:hover, &:active {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
     color: #0e023c;
   }
 
-  &:hover, &:not(:hover) {
+  &:hover,
+  &:not(:hover) {
     -webkit-transition: All 0.2s ease;
     -moz-transition: All 0.2s ease;
     -o-transition: All 0.2s ease;
@@ -107,296 +118,6 @@ ul {
   }
 }
 
-
-
-
-
-
-
-/* bread-crumbs */
-
-#bread-crumbs-w {
-  width: 100%;
-  padding: 100px 0 0 0;
-  margin: 0;
-  position: relative;
-  background: #0e023c;
-}
-
-#bread-crumbs {
-  width: 1140px;
-  padding: 20px 0 20px 0;
-  margin: 0 auto;
-  position: relative;
-  text-align: left;
-  z-index: 5;
-  border-top: 1px solid rgba(255, 255, 255, 0.07);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-
-  p {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align: left;
-    font-size: 16px;
-    line-height: 30px;
-    padding: 0;
-    margin: 0;
-    color: #6f6c98;
-    cursor: default;
-
-    a {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 300;
-      font-style: normal;
-      text-align: left;
-      font-size: 16px;
-      line-height: 30px;
-      padding: 0;
-      margin: 0;
-      color: #ffffff;
-      cursor: pointer;
-
-      &.home-crumbs {
-        padding: 0 0 0 20px;
-        margin: 0;
-        background: url('/images/18.png') no-repeat 0 9px;
-        display: inline-block;
-      }
-
-      &:hover {
-        opacity: 0.5;
-      }
-    }
-
-    span {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 100;
-      font-style: normal;
-      text-align: left;
-      font-size: 16px;
-      line-height: 30px;
-      padding: 0;
-      margin: 0;
-      color: #ffffff;
-      cursor: default;
-    }
-  }
-}
-
-@media all and (max-width: 1200px) {
-  #bread-crumbs-w {
-    width: 100%;
-    padding: 100px 0 0 0;
-    margin: 0;
-    position: relative;
-    background: #0e023c;
-  }
-
-  #bread-crumbs {
-    width: 960px;
-    padding: 20px 0 20px 0;
-    margin: 0 auto;
-    position: relative;
-    text-align: left;
-    z-index: 5;
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-
-    p {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 300;
-      font-style: normal;
-      text-align: left;
-      font-size: 16px;
-      line-height: 30px;
-      padding: 0;
-      margin: 0;
-      color: #6f6c98;
-      cursor: default;
-
-      a {
-        font-family: 'Exo 2', sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: left;
-        font-size: 16px;
-        line-height: 30px;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        cursor: pointer;
-
-        &.home-crumbs {
-          padding: 0 0 0 20px;
-          margin: 0;
-          background: url('/images/18.png') no-repeat 0 9px;
-          display: inline-block;
-        }
-
-        &:hover {
-          opacity: 0.5;
-        }
-      }
-
-      span {
-        font-family: 'Exo 2', sans-serif;
-        font-weight: 100;
-        font-style: normal;
-        text-align: left;
-        font-size: 16px;
-        line-height: 30px;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        cursor: default;
-      }
-    }
-  }
-}
-
-@media all and (max-width: 1020px) {
-  #bread-crumbs-w {
-    width: 100%;
-    padding: 140px 0 0 0;
-    margin: 0;
-    position: relative;
-    background: #0e023c;
-  }
-
-  #bread-crumbs {
-    width: 660px;
-    padding: 20px 0 20px 0;
-    margin: 0 auto;
-    position: relative;
-    text-align: left;
-    z-index: 5;
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-
-    p {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 300;
-      font-style: normal;
-      text-align: left;
-      font-size: 16px;
-      line-height: 30px;
-      padding: 0;
-      margin: 0;
-      color: #6f6c98;
-      cursor: default;
-
-      a {
-        font-family: 'Exo 2', sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: left;
-        font-size: 16px;
-        line-height: 30px;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        cursor: pointer;
-
-        &.home-crumbs {
-          padding: 0 0 0 20px;
-          margin: 0;
-          background: url('/images/18.png') no-repeat 0 9px;
-          display: inline-block;
-        }
-
-        &:hover {
-          opacity: 0.5;
-        }
-      }
-
-      span {
-        font-family: 'Exo 2', sans-serif;
-        font-weight: 100;
-        font-style: normal;
-        text-align: left;
-        font-size: 16px;
-        line-height: 30px;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        cursor: default;
-      }
-    }
-  }
-}
-
-@media all and (max-width: 720px) {
-  #bread-crumbs-w {
-    width: 100%;
-    padding: 165px 0 0 0;
-    margin: 0;
-    position: relative;
-    background: #0e023c;
-  }
-
-  #bread-crumbs {
-    width: 360px;
-    padding: 20px 0 20px 0;
-    margin: 0 auto;
-    position: relative;
-    text-align: left;
-    z-index: 5;
-    border-top: 1px solid rgba(255, 255, 255, 0.07);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-
-    p {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 300;
-      font-style: normal;
-      text-align: left;
-      font-size: 16px;
-      line-height: 30px;
-      padding: 0;
-      margin: 0;
-      color: #6f6c98;
-      cursor: default;
-
-      a {
-        font-family: 'Exo 2', sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: left;
-        font-size: 16px;
-        line-height: 30px;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        cursor: pointer;
-
-        &.home-crumbs {
-          padding: 0 0 0 20px;
-          margin: 0;
-          background: url('/images/18.png') no-repeat 0 9px;
-          display: inline-block;
-        }
-
-        &:hover {
-          opacity: 0.5;
-        }
-      }
-
-      span {
-        font-family: 'Exo 2', sans-serif;
-        font-weight: 100;
-        font-style: normal;
-        text-align: left;
-        font-size: 16px;
-        line-height: 30px;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        cursor: default;
-      }
-    }
-  }
-}
-
 /* news-project-page */
 
 #news-project-page-w {
@@ -416,7 +137,7 @@ ul {
   z-index: 5;
 
   h2 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -439,7 +160,7 @@ ul {
 }
 
 .date {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: left;
@@ -449,12 +170,12 @@ ul {
   margin: 0;
   color: #dad8f7;
   cursor: default;
-  background: url('/images/51.png') no-repeat 0 13px;
+  background: url("/images/51.png") no-repeat 0 13px;
   float: left;
 }
 
 .views {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: left;
@@ -464,7 +185,7 @@ ul {
   margin: 0 0 0 20px;
   color: #dad8f7;
   cursor: default;
-  background: url('/images/52.png') no-repeat 0 14px;
+  background: url("/images/52.png") no-repeat 0 14px;
   float: left;
 }
 
@@ -477,7 +198,7 @@ ul {
   float: right;
 
   span {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -505,15 +226,15 @@ ul {
     -khtml-border-radius: 100%;
 
     &.facebook {
-      background: url('/images/soc-1.png') no-repeat center center;
+      background: url("/images/soc-1.png") no-repeat center center;
     }
 
     &.telegram {
-      background: url('/images/soc-2.png') no-repeat center center;
+      background: url("/images/soc-2.png") no-repeat center center;
     }
 
     &.twitter {
-      background: url('/images/soc-3.png') no-repeat center center;
+      background: url("/images/soc-3.png") no-repeat center center;
     }
 
     &:hover {
@@ -536,7 +257,7 @@ ul {
   }
 
   h4 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: left;
@@ -552,7 +273,7 @@ ul {
 }
 
 .pnpp-1 {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: left;
@@ -567,7 +288,7 @@ ul {
 }
 
 .pnpp-2 {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: left;
@@ -581,7 +302,7 @@ ul {
   position: relative;
 
   span {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -607,7 +328,7 @@ ul {
 }
 
 .pnpp-3 {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: left;
@@ -621,7 +342,7 @@ ul {
 }
 
 #news-project-page p a {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: left;
@@ -657,7 +378,7 @@ ul {
     z-index: 5;
 
     h2 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -680,7 +401,7 @@ ul {
   }
 
   .date {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -690,12 +411,12 @@ ul {
     margin: 0;
     color: #dad8f7;
     cursor: default;
-    background: url('/images/51.png') no-repeat 0 13px;
+    background: url("/images/51.png") no-repeat 0 13px;
     float: left;
   }
 
   .views {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -705,7 +426,7 @@ ul {
     margin: 0 0 0 20px;
     color: #dad8f7;
     cursor: default;
-    background: url('/images/52.png') no-repeat 0 14px;
+    background: url("/images/52.png") no-repeat 0 14px;
     float: left;
   }
 
@@ -718,7 +439,7 @@ ul {
     float: right;
 
     span {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -746,15 +467,15 @@ ul {
       -khtml-border-radius: 100%;
 
       &.facebook {
-        background: url('/images/soc-1.png') no-repeat center center;
+        background: url("/images/soc-1.png") no-repeat center center;
       }
 
       &.telegram {
-        background: url('/images/soc-2.png') no-repeat center center;
+        background: url("/images/soc-2.png") no-repeat center center;
       }
 
       &.twitter {
-        background: url('/images/soc-3.png') no-repeat center center;
+        background: url("/images/soc-3.png") no-repeat center center;
       }
 
       &:hover {
@@ -777,7 +498,7 @@ ul {
     }
 
     h4 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 400;
       font-style: normal;
       text-align: left;
@@ -793,7 +514,7 @@ ul {
   }
 
   .pnpp-1 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -808,7 +529,7 @@ ul {
   }
 
   .pnpp-2 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -822,7 +543,7 @@ ul {
     position: relative;
 
     span {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 400;
       font-style: normal;
       text-align: center;
@@ -848,7 +569,7 @@ ul {
   }
 
   .pnpp-3 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -862,7 +583,7 @@ ul {
   }
 
   #news-project-page p a {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -907,7 +628,7 @@ ul {
     z-index: 5;
 
     h2 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -930,7 +651,7 @@ ul {
   }
 
   .date {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -940,12 +661,12 @@ ul {
     margin: 0;
     color: #dad8f7;
     cursor: default;
-    background: url('/images/51.png') no-repeat 0 13px;
+    background: url("/images/51.png") no-repeat 0 13px;
     float: left;
   }
 
   .views {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -955,7 +676,7 @@ ul {
     margin: 0 0 0 20px;
     color: #dad8f7;
     cursor: default;
-    background: url('/images/52.png') no-repeat 0 14px;
+    background: url("/images/52.png") no-repeat 0 14px;
     float: left;
   }
 
@@ -968,7 +689,7 @@ ul {
     float: right;
 
     span {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -996,15 +717,15 @@ ul {
       -khtml-border-radius: 100%;
 
       &.facebook {
-        background: url('/images/soc-1.png') no-repeat center center;
+        background: url("/images/soc-1.png") no-repeat center center;
       }
 
       &.telegram {
-        background: url('/images/soc-2.png') no-repeat center center;
+        background: url("/images/soc-2.png") no-repeat center center;
       }
 
       &.twitter {
-        background: url('/images/soc-3.png') no-repeat center center;
+        background: url("/images/soc-3.png") no-repeat center center;
       }
 
       &:hover {
@@ -1027,7 +748,7 @@ ul {
     }
 
     h4 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 400;
       font-style: normal;
       text-align: left;
@@ -1043,7 +764,7 @@ ul {
   }
 
   .pnpp-1 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1058,7 +779,7 @@ ul {
   }
 
   .pnpp-2 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1072,7 +793,7 @@ ul {
     position: relative;
 
     span {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 400;
       font-style: normal;
       text-align: center;
@@ -1098,7 +819,7 @@ ul {
   }
 
   .pnpp-3 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1112,7 +833,7 @@ ul {
   }
 
   #news-project-page p a {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1153,7 +874,7 @@ ul {
     z-index: 5;
 
     h2 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: center;
@@ -1176,7 +897,7 @@ ul {
   }
 
   .date {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1186,13 +907,13 @@ ul {
     margin: 0;
     color: #dad8f7;
     cursor: default;
-    background: url('/images/51.png') no-repeat 0 13px;
+    background: url("/images/51.png") no-repeat 0 13px;
     float: none;
     display: inline-block;
   }
 
   .views {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1202,7 +923,7 @@ ul {
     margin: 0 0 0 20px;
     color: #dad8f7;
     cursor: default;
-    background: url('/images/52.png') no-repeat 0 14px;
+    background: url("/images/52.png") no-repeat 0 14px;
     float: none;
     display: inline-block;
   }
@@ -1217,7 +938,7 @@ ul {
     display: inline-block;
 
     span {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -1245,15 +966,15 @@ ul {
       -khtml-border-radius: 100%;
 
       &.facebook {
-        background: url('/images/soc-1.png') no-repeat center center;
+        background: url("/images/soc-1.png") no-repeat center center;
       }
 
       &.telegram {
-        background: url('/images/soc-2.png') no-repeat center center;
+        background: url("/images/soc-2.png") no-repeat center center;
       }
 
       &.twitter {
-        background: url('/images/soc-3.png') no-repeat center center;
+        background: url("/images/soc-3.png") no-repeat center center;
       }
 
       &:hover {
@@ -1276,7 +997,7 @@ ul {
     }
 
     h4 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 400;
       font-style: normal;
       text-align: left;
@@ -1292,7 +1013,7 @@ ul {
   }
 
   .pnpp-1 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1307,7 +1028,7 @@ ul {
   }
 
   .pnpp-2 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1321,7 +1042,7 @@ ul {
     position: relative;
 
     span {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 400;
       font-style: normal;
       text-align: center;
@@ -1347,7 +1068,7 @@ ul {
   }
 
   .pnpp-3 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1361,7 +1082,7 @@ ul {
   }
 
   #news-project-page p a {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1395,7 +1116,7 @@ ul {
   padding: 40px 0 0 0;
   margin: 0;
   position: relative;
-  background: url('/images/16.png') no-repeat top center;
+  background: url("/images/16.png") no-repeat top center;
 }
 
 #news-project {
@@ -1407,7 +1128,7 @@ ul {
   z-index: 5;
 
   h2 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1420,7 +1141,7 @@ ul {
   }
 
   h3 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: left;
@@ -1462,12 +1183,12 @@ a.news-project {
   box-shadow: 0 30px 35px 0 rgba(0, 0, 0, 0.25);
 
   &::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
-    background: url('/images/28.png') no-repeat bottom center;
+    background: url("/images/28.png") no-repeat bottom center;
     position: absolute;
     top: 0;
     left: 0;
@@ -1486,7 +1207,7 @@ a.news-project {
   }
 
   p {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: left;
@@ -1518,156 +1239,17 @@ a.news-project {
     transition: All 0.2s ease;
   }
 
-  &:not(:hover), &:hover img, &:not(:hover) img, &:hover p, &:not(:hover) p {
+  &:not(:hover),
+  &:hover img,
+  &:not(:hover) img,
+  &:hover p,
+  &:not(:hover) p {
     -webkit-transition: All 0.2s ease;
     -moz-transition: All 0.2s ease;
     -o-transition: All 0.2s ease;
     -ms-transition: All 0.2s ease;
     transition: All 0.2s ease;
   }
-}
-
-.page-navigation {
-  width: 1140px;
-  padding: 0;
-  margin: 30px 0 0 0;
-  position: relative;
-  z-index: 5;
-  display: block;
-}
-
-a {
-  &.previous-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 82px;
-    width: 115px;
-    height: 80px;
-    padding: 0 0 0 55px;
-    margin: 0;
-    color: rgba(77, 77, 77, 1);
-    background: #ffffff;
-    position: relative;
-    cursor: pointer;
-    float: left;
-    border-top-left-radius: 10px;
-    -webkit-border-top-left-radius: 10px;
-    -moz-border-top-left-radius: 10px;
-    -khtml-border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-    -moz-border-bottom-left-radius: 10px;
-    -khtml-border-bottom-left-radius: 10px;
-
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      left: 45px;
-      top: 41px;
-      width: 5px;
-      height: 5px;
-      border-top: 1px solid rgba(77, 77, 77, 1);
-      border-right: 1px solid rgba(77, 77, 77, 1);
-      -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-      transform: translate(-50%, -50%) rotate(-135deg);
-      transition: opacity .35s;
-    }
-  }
-
-  &.next-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: right;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 82px;
-    width: 114px;
-    height: 80px;
-    padding: 0 55px 0 0;
-    margin: 0;
-    border-left: 1px solid #ededed;
-    color: rgba(77, 77, 77, 1);
-    background: #ffffff;
-    position: relative;
-    cursor: pointer;
-    float: left;
-    border-top-right-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -moz-border-top-right-radius: 10px;
-    -khtml-border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-    -moz-border-bottom-right-radius: 10px;
-    -khtml-border-bottom-right-radius: 10px;
-
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      right: 40px;
-      top: 41px;
-      width: 5px;
-      height: 5px;
-      border-bottom: 1px solid rgba(77, 77, 77, 1);
-      border-left: 1px solid rgba(77, 77, 77, 1);
-      -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-      transform: translate(-50%, -50%) rotate(-135deg);
-      transition: opacity .35s;
-    }
-  }
-
-  &.page-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 82px;
-    width: 79px;
-    height: 80px;
-    padding: 0;
-    margin: 0;
-    border-left: 1px solid #ededed;
-    color: rgba(77, 77, 77, 0.5);
-    background: #ffffff;
-    cursor: pointer;
-    float: left;
-  }
-
-  &.active-page-button {
-    color: rgba(77, 77, 77, 1);
-    background: #f2f2f2;
-  }
-}
-
-.page-none-button {
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 82px;
-  width: 79px;
-  height: 80px;
-  padding: 0;
-  margin: 0;
-  border-left: 1px solid #ededed;
-  color: rgba(77, 77, 77, 0.5);
-  background: #ffffff;
-  cursor: default;
-  float: left;
-}
-
-.page-navigation a:hover {
-  background: #f2f2f2;
 }
 
 @media all and (max-width: 1200px) {
@@ -1684,7 +1266,7 @@ a {
     padding: 40px 0 0 0;
     margin: 0;
     position: relative;
-    background: url('/images/16.png') no-repeat top center;
+    background: url("/images/16.png") no-repeat top center;
   }
 
   #news-project {
@@ -1696,7 +1278,7 @@ a {
     z-index: 5;
 
     h2 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -1708,14 +1290,14 @@ a {
       cursor: default;
 
       span {
-        font-family: 'Exo 2', sans-serif;
+        font-family: "Exo 2", sans-serif;
         font-weight: 400;
         color: #ffffff;
       }
     }
 
     h3 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -1757,12 +1339,12 @@ a {
     box-shadow: 0 30px 35px 0 rgba(0, 0, 0, 0.25);
 
     &::after {
-      content: '';
+      content: "";
       width: 100%;
       height: 100%;
       padding: 0;
       margin: 0;
-      background: url('/images/28.png') no-repeat bottom center;
+      background: url("/images/28.png") no-repeat bottom center;
       position: absolute;
       top: 0;
       left: 0;
@@ -1781,7 +1363,7 @@ a {
     }
 
     p {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 500;
       font-style: normal;
       text-align: left;
@@ -1817,156 +1399,17 @@ a {
       transition: All 0.2s ease;
     }
 
-    &:not(:hover), &:hover img, &:not(:hover) img, &:hover p, &:not(:hover) p {
+    &:not(:hover),
+    &:hover img,
+    &:not(:hover) img,
+    &:hover p,
+    &:not(:hover) p {
       -webkit-transition: All 0.2s ease;
       -moz-transition: All 0.2s ease;
       -o-transition: All 0.2s ease;
       -ms-transition: All 0.2s ease;
       transition: All 0.2s ease;
     }
-  }
-
-  .page-navigation {
-    width: 960px;
-    padding: 0;
-    margin: 30px 0 0 0;
-    position: relative;
-    z-index: 5;
-    display: block;
-  }
-
-  a {
-    &.previous-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: left;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 72px;
-      width: 90px;
-      height: 70px;
-      padding: 0 0 0 40px;
-      margin: 0;
-      color: rgba(77, 77, 77, 1);
-      background: #ffffff;
-      position: relative;
-      cursor: pointer;
-      float: left;
-      border-top-left-radius: 10px;
-      -webkit-border-top-left-radius: 10px;
-      -moz-border-top-left-radius: 10px;
-      -khtml-border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      -webkit-border-bottom-left-radius: 10px;
-      -moz-border-bottom-left-radius: 10px;
-      -khtml-border-bottom-left-radius: 10px;
-
-      &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 30px;
-        top: 36px;
-        width: 5px;
-        height: 5px;
-        border-top: 1px solid rgba(77, 77, 77, 1);
-        border-right: 1px solid rgba(77, 77, 77, 1);
-        -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-        transform: translate(-50%, -50%) rotate(-135deg);
-        transition: opacity .35s;
-      }
-    }
-
-    &.next-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: right;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 72px;
-      width: 89px;
-      height: 70px;
-      padding: 0 40px 0 0;
-      margin: 0;
-      border-left: 1px solid #ededed;
-      color: rgba(77, 77, 77, 1);
-      background: #ffffff;
-      position: relative;
-      cursor: pointer;
-      float: left;
-      border-top-right-radius: 10px;
-      -webkit-border-top-right-radius: 10px;
-      -moz-border-top-right-radius: 10px;
-      -khtml-border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-      -webkit-border-bottom-right-radius: 10px;
-      -moz-border-bottom-right-radius: 10px;
-      -khtml-border-bottom-right-radius: 10px;
-
-      &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        right: 25px;
-        top: 36px;
-        width: 5px;
-        height: 5px;
-        border-bottom: 1px solid rgba(77, 77, 77, 1);
-        border-left: 1px solid rgba(77, 77, 77, 1);
-        -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-        transform: translate(-50%, -50%) rotate(-135deg);
-        transition: opacity .35s;
-      }
-    }
-
-    &.page-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 72px;
-      width: 69px;
-      height: 70px;
-      padding: 0;
-      margin: 0;
-      border-left: 1px solid #ededed;
-      color: rgba(77, 77, 77, 0.5);
-      background: #ffffff;
-      cursor: pointer;
-      float: left;
-    }
-
-    &.active-page-button {
-      color: rgba(77, 77, 77, 1);
-      background: #f2f2f2;
-    }
-  }
-
-  .page-none-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 72px;
-    width: 69px;
-    height: 70px;
-    padding: 0;
-    margin: 0;
-    border-left: 1px solid #ededed;
-    color: rgba(77, 77, 77, 0.5);
-    background: #ffffff;
-    cursor: default;
-    float: left;
-  }
-
-  .page-navigation a:hover {
-    background: #f2f2f2;
   }
 }
 
@@ -1984,7 +1427,7 @@ a {
     padding: 40px 0 0 0;
     margin: 0;
     position: relative;
-    background: url('/images/16.png') no-repeat top center;
+    background: url("/images/16.png") no-repeat top center;
   }
 
   #news-project {
@@ -1996,7 +1439,7 @@ a {
     z-index: 5;
 
     h2 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -2008,14 +1451,14 @@ a {
       cursor: default;
 
       span {
-        font-family: 'Exo 2', sans-serif;
+        font-family: "Exo 2", sans-serif;
         font-weight: 400;
         color: #ffffff;
       }
     }
 
     h3 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: left;
@@ -2057,12 +1500,12 @@ a {
     box-shadow: 0 30px 35px 0 rgba(0, 0, 0, 0.25);
 
     &::after {
-      content: '';
+      content: "";
       width: 100%;
       height: 100%;
       padding: 0;
       margin: 0;
-      background: url('/images/28.png') no-repeat bottom center;
+      background: url("/images/28.png") no-repeat bottom center;
       position: absolute;
       top: 0;
       left: 0;
@@ -2085,7 +1528,7 @@ a {
     }
 
     p {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 500;
       font-style: normal;
       text-align: left;
@@ -2117,160 +1560,17 @@ a {
       transition: All 0.2s ease;
     }
 
-    &:not(:hover), &:hover img, &:not(:hover) img, &:hover p, &:not(:hover) p {
+    &:not(:hover),
+    &:hover img,
+    &:not(:hover) img,
+    &:hover p,
+    &:not(:hover) p {
       -webkit-transition: All 0.2s ease;
       -moz-transition: All 0.2s ease;
       -o-transition: All 0.2s ease;
       -ms-transition: All 0.2s ease;
       transition: All 0.2s ease;
     }
-  }
-
-  .page-navigation {
-    width: 660px;
-    padding: 0;
-    margin: 30px 0 0 0;
-    position: relative;
-    z-index: 5;
-    display: block;
-  }
-
-  a {
-    &.previous-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: left;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 72px;
-      width: 90px;
-      height: 70px;
-      padding: 0 0 0 40px;
-      margin: 0;
-      color: rgba(77, 77, 77, 1);
-      background: #ffffff;
-      position: relative;
-      cursor: pointer;
-      float: left;
-      border-top-left-radius: 10px;
-      -webkit-border-top-left-radius: 10px;
-      -moz-border-top-left-radius: 10px;
-      -khtml-border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      -webkit-border-bottom-left-radius: 10px;
-      -moz-border-bottom-left-radius: 10px;
-      -khtml-border-bottom-left-radius: 10px;
-
-      &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 30px;
-        top: 36px;
-        width: 5px;
-        height: 5px;
-        border-top: 1px solid rgba(77, 77, 77, 1);
-        border-right: 1px solid rgba(77, 77, 77, 1);
-        -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-        transform: translate(-50%, -50%) rotate(-135deg);
-        transition: opacity .35s;
-      }
-    }
-
-    &.next-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: right;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 72px;
-      width: 69px;
-      height: 70px;
-      padding: 0 40px 0 0;
-      margin: 0;
-      border-left: 1px solid #ededed;
-      color: rgba(77, 77, 77, 1);
-      background: #ffffff;
-      position: relative;
-      cursor: pointer;
-      float: left;
-      border-top-right-radius: 10px;
-      -webkit-border-top-right-radius: 10px;
-      -moz-border-top-right-radius: 10px;
-      -khtml-border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-      -webkit-border-bottom-right-radius: 10px;
-      -moz-border-bottom-right-radius: 10px;
-      -khtml-border-bottom-right-radius: 10px;
-
-      &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        right: 25px;
-        top: 36px;
-        width: 5px;
-        height: 5px;
-        border-bottom: 1px solid rgba(77, 77, 77, 1);
-        border-left: 1px solid rgba(77, 77, 77, 1);
-        -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-        transform: translate(-50%, -50%) rotate(-135deg);
-        transition: opacity .35s;
-      }
-    }
-
-    &.page-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 72px;
-      width: 69px;
-      height: 70px;
-      padding: 0;
-      margin: 0;
-      border-left: 1px solid #ededed;
-      color: rgba(77, 77, 77, 0.5);
-      background: #ffffff;
-      cursor: pointer;
-      float: left;
-    }
-
-    &.page-none {
-      display: none;
-    }
-
-    &.active-page-button {
-      color: rgba(77, 77, 77, 1);
-      background: #f2f2f2;
-    }
-  }
-
-  .page-none-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 72px;
-    width: 69px;
-    height: 70px;
-    padding: 0;
-    margin: 0;
-    border-left: 1px solid #ededed;
-    color: rgba(77, 77, 77, 0.5);
-    background: #ffffff;
-    cursor: default;
-    float: left;
-  }
-
-  .page-navigation a:hover {
-    background: #f2f2f2;
   }
 }
 
@@ -2288,7 +1588,7 @@ a {
     padding: 25px 0 0 0;
     margin: 0;
     position: relative;
-    background: url('/images/16.png') no-repeat top center;
+    background: url("/images/16.png") no-repeat top center;
   }
 
   #news-project {
@@ -2300,7 +1600,7 @@ a {
     z-index: 5;
 
     h2 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: center;
@@ -2312,14 +1612,14 @@ a {
       cursor: default;
 
       span {
-        font-family: 'Exo 2', sans-serif;
+        font-family: "Exo 2", sans-serif;
         font-weight: 400;
         color: #ffffff;
       }
     }
 
     h3 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 100;
       font-style: normal;
       text-align: center;
@@ -2361,12 +1661,12 @@ a {
     box-shadow: 0 30px 35px 0 rgba(0, 0, 0, 0.25);
 
     &::after {
-      content: '';
+      content: "";
       width: 100%;
       height: 100%;
       padding: 0;
       margin: 0;
-      background: url('/images/28.png') no-repeat bottom center;
+      background: url("/images/28.png") no-repeat bottom center;
       position: absolute;
       top: 0;
       left: 0;
@@ -2385,7 +1685,7 @@ a {
     }
 
     p {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 500;
       font-style: normal;
       text-align: left;
@@ -2417,7 +1717,11 @@ a {
       transition: All 0.2s ease;
     }
 
-    &:not(:hover), &:hover img, &:not(:hover) img, &:hover p, &:not(:hover) p {
+    &:not(:hover),
+    &:hover img,
+    &:not(:hover) img,
+    &:hover p,
+    &:not(:hover) p {
       -webkit-transition: All 0.2s ease;
       -moz-transition: All 0.2s ease;
       -o-transition: All 0.2s ease;
@@ -2426,159 +1730,8 @@ a {
     }
   }
 
-  .page-navigation {
-    width: 360px;
-    padding: 0;
-    margin: 30px auto 0 auto;
-    position: relative;
-    z-index: 5;
-    display: block;
-  }
-
-  a {
-    &.previous-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: left;
-      text-transform: uppercase;
-      font-size: 0;
-      line-height: 0;
-      width: 60px;
-      height: 50px;
-      padding: 0;
-      margin: 0;
-      color: rgba(77, 77, 77, 1);
-      background: #ffffff;
-      position: relative;
-      cursor: pointer;
-      float: left;
-      border-top-left-radius: 10px;
-      -webkit-border-top-left-radius: 10px;
-      -moz-border-top-left-radius: 10px;
-      -khtml-border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      -webkit-border-bottom-left-radius: 10px;
-      -moz-border-bottom-left-radius: 10px;
-      -khtml-border-bottom-left-radius: 10px;
-
-      &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 32px;
-        top: 26px;
-        width: 5px;
-        height: 5px;
-        border-top: 1px solid rgba(77, 77, 77, 1);
-        border-right: 1px solid rgba(77, 77, 77, 1);
-        -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-        transform: translate(-50%, -50%) rotate(-135deg);
-        transition: opacity .35s;
-      }
-    }
-
-    &.next-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: right;
-      text-transform: uppercase;
-      font-size: 0;
-      line-height: 0;
-      width: 54px;
-      height: 50px;
-      padding: 0;
-      margin: 0;
-      border-left: 1px solid #ededed;
-      color: rgba(77, 77, 77, 1);
-      background: #ffffff;
-      position: relative;
-      cursor: pointer;
-      float: left;
-      border-top-right-radius: 10px;
-      -webkit-border-top-right-radius: 10px;
-      -moz-border-top-right-radius: 10px;
-      -khtml-border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-      -webkit-border-bottom-right-radius: 10px;
-      -moz-border-bottom-right-radius: 10px;
-      -khtml-border-bottom-right-radius: 10px;
-
-      &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        right: 25px;
-        top: 26px;
-        width: 5px;
-        height: 5px;
-        border-bottom: 1px solid rgba(77, 77, 77, 1);
-        border-left: 1px solid rgba(77, 77, 77, 1);
-        -webkit-transform: translate(-50%, -50%) rotate(-135deg);
-        transform: translate(-50%, -50%) rotate(-135deg);
-        transition: opacity .35s;
-      }
-    }
-
-    &.page-button {
-      font-family: 'Exo 2', sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 52px;
-      width: 39px;
-      height: 50px;
-      padding: 0;
-      margin: 0;
-      border-left: 1px solid #ededed;
-      color: rgba(77, 77, 77, 0.5);
-      background: #ffffff;
-      cursor: pointer;
-      float: left;
-    }
-
-    &.page-none {
-      display: none;
-    }
-
-    &.active-page-button {
-      color: rgba(77, 77, 77, 1);
-      background: #f2f2f2;
-    }
-  }
-
-  .page-none-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 52px;
-    width: 39px;
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    border-left: 1px solid #ededed;
-    color: rgba(77, 77, 77, 0.5);
-    background: #ffffff;
-    cursor: default;
-    float: left;
-  }
-
-  .page-navigation a:hover {
-    background: #f2f2f2;
-  }
+  
 }
-
-
-
-
-
-
 
 /* noone */
 
@@ -2622,7 +1775,7 @@ a {
   z-index: 207;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     height: 1px;
@@ -2638,7 +1791,7 @@ a {
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     height: 1px;
@@ -2691,7 +1844,7 @@ a {
   -khtml-border-radius: 10px;
 
   h2 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     font-style: normal;
     text-align: center;
@@ -2703,7 +1856,7 @@ a {
     cursor: default;
 
     span {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2", sans-serif;
       font-weight: 500;
       font-style: normal;
       text-align: center;
