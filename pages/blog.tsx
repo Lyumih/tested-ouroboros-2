@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>{`${siteTitle} | News Project`}</title>
       </Head>
-      <BreadCrumbs paths={["News project", "s"]} />
+      <BreadCrumbs path={"News project"} />
       <Blog />
     </Layout>
   );

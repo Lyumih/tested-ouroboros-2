@@ -1,8 +1,8 @@
-import "./box4.module.scss";
+import "./about-box.module.scss";
 
-export default function Box4() {
+export default function AboutBox() {
   return (
-    <div id="box-4-w">
+    <div id="box-4-w" name="about">
       <div id="box-4">
         <h2>
           Learn more about <span>Ouroboros</span>

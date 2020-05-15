@@ -1,10 +1,10 @@
-import './box1.module.scss'
+import "./promo-box.module.scss";
 
-export default function Box1(){
-  return(
+export default function PromoBox() {
+  return (
     <div id="box-1-w">
       <div id="box-1-w1">
-        <div id="box-1">
+        <div id="box-1" name={"promo-box"}>
           <div className="social">
             <a
               href="https://www.facebook.com/"
@@ -47,5 +47,5 @@ export default function Box1(){
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,6 +1,7 @@
-import "./box6.module.scss";
+import "./project-news-box.module.scss";
+import Link from "next/link";
 
-export default function Box6() {
+export default function ProjectNewsBox() {
   return (
     <div id="box-6-w">
       <div id="box-6">
@@ -8,11 +9,13 @@ export default function Box6() {
           Latest project <span>news</span>
         </h2>
         <div className="box-6-w">
-          <a href="" className="box-6">
+          <Link  href="">
+          <a className="box-6">
             <img src="images/29.jpg" alt="" />
             <p>Открытие офисов Ouroboros</p>
             <div className="clear"></div>
           </a>
+          </Link>
           <a href="" className="box-6">
             <img src="images/30.jpg" alt="" />
             <p>OUROBOROS на форуме Блокчейн Лайф</p>
@@ -31,9 +34,9 @@ export default function Box6() {
           <div className="clear"></div>
         </div>
         <div className="clear"></div>
-        <a href="" className="button-6">
-          More news
-        </a>
+        <Link href="/blog">
+          <a className="button-6">More news</a>
+        </Link>
         <div className="clear"></div>
       </div>
       {/* <!-- --> */}

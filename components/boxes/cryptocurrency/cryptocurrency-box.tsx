@@ -1,6 +1,6 @@
-import "./box5.module.scss";
+import "./cryptocurrency-box.module.scss";
 
-export default function Box5() {
+export default function CryptocurrencyBox() {
   return (
     <div id="box-5-w">
       <div id="box-5">

@@ -1,6 +1,6 @@
-import "./box7.module.scss";
+import "./subscribe-box.module.scss";
 
-export default function Box7() {
+export default function SubscribeBox() {
   return (
     <div id="box-7-w">
       <div id="box-7">

@@ -1,6 +1,6 @@
-import "./box3.module.scss";
+import "./download-wallet-box.module.scss";
 
-export default function Box3() {
+export default function DownloadWalletBox() {
   return (
     <div id="box-3-w">
       <div id="box-3">

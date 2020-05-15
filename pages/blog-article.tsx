@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>{`${siteTitle} | News Project`}</title>
       </Head>
-      <BreadCrumbs paths={['News Project']}/>
+      <BreadCrumbs path={'News Project'}/>
       <BlogArticle />
       <div id="news-project-w">
         <div id="news-project-w1">
