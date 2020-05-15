@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Header from './header/header'
 import Footer from './footer/footer'
+import './layout.module.scss'
+
 export const siteTitle = "Ouroboros";
 
 export default function Layout({
