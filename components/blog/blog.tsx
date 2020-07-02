@@ -1,13 +1,33 @@
 import "./blog.module.scss";
 import PageNavigation from "../page-navigation/page-navigation";
 import Link from "next/link";
-
-export default function Blog() {
+interface BlogProps {
+  items: [
+    {
+      title:string,
+      img:string,
+      id: string,
+      date: string,
+      fileContent: string
+    }
+  ]
+}
+export default function Blog({items}:BlogProps) {
   return (
     <div id="news-project-w">
       <div id="news-project">
         <h2>News project</h2>
         <div className="news-project-w">
+          {items.map(item=> {
+            return (
+                <Link  href={`/news/${item.id}`} key={item.id}>
+                  <a className="news-project">
+                    <img src={item.img} alt="" />
+                    <p>{item.title}</p>
+                    <div className="clear"></div>
+                  </a>
+                </Link>            )
+          })}
           <Link href="/blog-article">
             <a className="news-project">
               <img src="images/39.jpg" alt="" />

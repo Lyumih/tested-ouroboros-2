@@ -13,7 +13,7 @@ export default function SubscribeBox() {
           scoop on what Ouroboros is up to — long before the public.
         </p>
         <div className="formbox">
-          <form action="/send.php" method="POST" name="form" id="form">
+          <form  method="POST" name="form" id="form">
             <input
               type="email"
               size={50}

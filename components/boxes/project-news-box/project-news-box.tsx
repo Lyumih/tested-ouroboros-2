@@ -1,7 +1,20 @@
 import "./project-news-box.module.scss";
 import Link from "next/link";
 
-export default function ProjectNewsBox() {
+interface ProjectNewsBoxProps {
+  items: [
+    {
+      title:string,
+      img:string,
+      id: string,
+      date: string,
+      fileContent: string
+    }
+  ]
+}
+
+export default function ProjectNewsBox({items}:ProjectNewsBoxProps) {
+  console.log(items)
   return (
     <div id="box-6-w">
       <div id="box-6">
@@ -9,6 +22,16 @@ export default function ProjectNewsBox() {
           Latest project <span>news</span>
         </h2>
         <div className="box-6-w">
+          {items.map(item=> {
+            return (
+                <Link  href={`/news/${item.id}`} key={item.id}>
+                  <a className="box-6">
+                    <img src={item.img} alt="" />
+                    <p>{item.title}</p>
+                    <div className="clear"></div>
+                  </a>
+                </Link>            )
+          })}
           <Link  href="/blog-article">
           <a className="box-6">
             <img src="images/29.jpg" alt="" />
@@ -48,7 +71,6 @@ export default function ProjectNewsBox() {
         </Link>
         <div className="clear"></div>
       </div>
-      {/* <!-- --> */}
     </div>
   );
 }

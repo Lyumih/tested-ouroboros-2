@@ -9,7 +9,7 @@ export default function AboutBox() {
         </h2>
         <div className="lightGallery">
           <div data-src="https://youtu.be/vN7l7JisbSk" className="videobox">
-            <img src="images/19.jpg" alt="" />
+            <img src="/images/19.jpg" alt="" />
             <div className="play-w">
               <div className="play"></div>
               <div className="pulse-1"></div>
