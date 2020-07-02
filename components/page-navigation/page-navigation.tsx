@@ -1,14 +1,34 @@
 import "./page-navigation.module.scss";
+import Link from "next/link";
+import {useState} from "react";
 
-export default function PageNavigation() {
+interface PageNavigationProps {
+    current: number,
+    total: number,
+    limit: number,
+    onClick: () => void
+}
+
+export default function PageNavigation({current, total, limit, onClick}: PageNavigationProps) {
+
+
   return (
     <div className="page-navigation">
-      <a href="#" className="previous-button">
-        previous
-      </a>
-      <a href="#" className="page-button active-page-button">
-        1
-      </a>
+      <div>{`current ${current}, total ${total}, limit ${limit}`}</div>
+
+
+
+      <Link href={"?page=1"}>
+        <a className="previous-button">
+          previous
+        </a>
+      </Link>
+      <Link href={"?page=1"}>
+        <a className="page-button active-page-button">
+          1
+        </a>
+      </Link>
+
       <a href="#" className="page-button">
         2
       </a>
@@ -31,13 +51,16 @@ export default function PageNavigation() {
         8
       </a>
       <div className="page-none-button">...</div>
+
       <a href="#" className="page-button">
         14
       </a>
       <a href="#" className="next-button">
         next
       </a>
+
       <div className="clear"></div>
+
     </div>
   );
 }

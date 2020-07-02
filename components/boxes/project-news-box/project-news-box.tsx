@@ -32,37 +32,6 @@ export default function ProjectNewsBox({items}:ProjectNewsBoxProps) {
                   </a>
                 </Link>            )
           })}
-          <Link  href="/blog-article">
-          <a className="box-6">
-            <img src="images/29.jpg" alt="" />
-            <p>Открытие офисов Ouroboros</p>
-            <div className="clear"></div>
-          </a>
-          </Link>
-          
-          <Link  href="/blog-article">
-          <a className="box-6">
-            <img src="images/30.jpg" alt="" />
-            <p>OUROBOROS на форуме Блокчейн Лайф</p>
-            <div className="clear"></div>
-          </a>
-          </Link>
-          
-          <Link  href="/blog-article">
-          <a className="box-6">
-            <img src="images/31.jpg" alt="" />
-            <p>Регистрация кошелька Ouroboros</p>
-            <div className="clear"></div>
-          </a>
-          </Link>
-          
-          <Link  href="/blog-article">
-          <a className="box-6">
-            <img src="images/32.jpg" alt="" />
-            <p>Калькулятор доходности Ouroboros</p>
-            <div className="clear"></div>
-          </a>
-          </Link>
           <div className="clear"></div>
         </div>
         <div className="clear"></div>
