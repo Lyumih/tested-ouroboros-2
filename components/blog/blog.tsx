@@ -25,7 +25,7 @@ const Blog = (props) => {
   const stopLoading = () => setLoading(false);
 
   const router = useRouter()
-  console.log(router)
+  // console.log(router)
 
   /*
     Posts fetching happens after page navigation,
@@ -59,14 +59,14 @@ const Blog = (props) => {
 
   if (isLoading) content = <div>Loading</div>
   else {
-    console.log(page * props.perPage, page* (props.perPage+1))
+    // console.log(page * props.perPage, page* (props.perPage+1))
     content = (
       <div className="news-project-w">
       </div>
     )
   }
 
-  console.log(props)
+  // console.log(props)
 
   return (
     <div id="news-project-w">

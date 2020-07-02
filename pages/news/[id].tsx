@@ -4,7 +4,7 @@ import BreadCrumbs from "../../components/bread-crumbs/bread-crumbs";
 import {getAllNewsIds, getNewsData} from "../../lib/news";
 
 export default function News({newsData}) {
-    console.log(newsData)
+    // console.log(newsData)
     return (
         <Layout>
             <Head>
@@ -12,8 +12,8 @@ export default function News({newsData}) {
             </Head>
             <BreadCrumbs path={"News project"} />
             <article id="news-project-page">
-                <h1>{newsData.title}</h1>
-                <div>{newsData.date}</div>
+                {/*<h1>{newsData.title}</h1>*/}
+                {/*<div>{newsData.date}</div>*/}
                 <div dangerouslySetInnerHTML={{ __html:newsData.fileContents}} />
             </article>
 
@@ -23,7 +23,7 @@ export default function News({newsData}) {
 
 export async function getStaticPaths() {
     const paths = getAllNewsIds()
-    console.log(paths)
+    // console.log(paths)
     return {
         paths,
         fallback: false
@@ -31,9 +31,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({params}) {
-    console.log('params',params)
+    // console.log('params',params)
     const newsData = getNewsData(params.id)
-    console.log(newsData)
+    // console.log(newsData)
     return {
         props: {
             newsData
