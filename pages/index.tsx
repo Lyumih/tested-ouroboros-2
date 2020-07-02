@@ -29,7 +29,7 @@ export default function Home({allNewsData}) {
 
 
 export const getStaticProps: GetStaticProps = async () => {
-    const allNewsData = getSortedNewsData();
+    const allNewsData = getSortedNewsData().slice(0,4);
     return {
         props: {
             allNewsData,

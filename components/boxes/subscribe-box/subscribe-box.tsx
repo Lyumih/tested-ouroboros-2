@@ -1,6 +1,14 @@
 import "./subscribe-box.module.scss";
+import {FormEvent, useState} from "react";
 
 export default function SubscribeBox() {
+  const [email, setEmail] = useState("")
+  function handleSubscribe(e:FormEvent) {
+    e.preventDefault()
+    if (email) {
+      alert(`Вы успешно подписаны!` )
+    }
+  }
   return (
     <div id="box-7-w">
       <div id="box-7">
@@ -13,14 +21,16 @@ export default function SubscribeBox() {
           scoop on what Ouroboros is up to — long before the public.
         </p>
         <div className="formbox">
-          <form  method="POST" name="form" id="form">
+          <form onSubmit={handleSubscribe} method="POST" name="form" id="form">
             <input
               type="email"
               size={50}
               name="email"
               className="email"
-              autoComplete="off"
+              // autoComplete="off"
               placeholder="Your E-mail"
+              onChange={(e)=>{setEmail(e.target.value)}}
+              required
             />
             <div className="submit">
               Subscribe
