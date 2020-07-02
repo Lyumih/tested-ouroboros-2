@@ -7,9 +7,10 @@ import AboutBox from "../components/boxes/about-box/about-box";
 import CryptocurrencyBox from "../components/boxes/cryptocurrency/cryptocurrency-box";
 import ProjectNewsBox from "../components/boxes/project-news-box/project-news-box";
 import SubscribeBox from "../components/boxes/subscribe-box/subscribe-box";
-import Link from "next/link";
+import {getSortedNewsData} from "../lib/news";
+import {GetStaticProps} from "next";
 
-export default function Home() {
+export default function Home({allNewsData}) {
   return (
     <Layout>
       <Head>
@@ -20,8 +21,19 @@ export default function Home() {
       <DownloadWalletBox />
       <AboutBox />
       <CryptocurrencyBox />
-      <ProjectNewsBox />
+      <ProjectNewsBox items={allNewsData} />
       <SubscribeBox />
     </Layout>
   );
 }
+
+
+export const getStaticProps: GetStaticProps = async () => {
+    const allNewsData = getSortedNewsData().slice(0,4);
+    return {
+        props: {
+            allNewsData,
+        },
+    };
+};
+
