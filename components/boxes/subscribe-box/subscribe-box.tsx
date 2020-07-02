@@ -3,10 +3,17 @@ import {FormEvent, useState} from "react";
 
 export default function SubscribeBox() {
   const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
   function handleSubscribe(e:FormEvent) {
     e.preventDefault()
-    if (email) {
-      alert(`Вы успешно подписаны!` )
+    if (email.includes("@") && email.includes(".")) {
+
+      fetch("/api/subscribe", {
+        method: "POST",
+        body: JSON.stringify({email})
+      })
+        .then(response => response.json())
+        .then(data=>setMessage(data.message ? data.message : "Done"))
     }
   }
   return (
@@ -37,6 +44,7 @@ export default function SubscribeBox() {
               <input type="submit" name="submit" value="Subscribe" />
             </div>
             <div className="clear"></div>
+            <div className="subscribe-done">{message}</div>
           </form>
         </div>
         <div className="clear"></div>

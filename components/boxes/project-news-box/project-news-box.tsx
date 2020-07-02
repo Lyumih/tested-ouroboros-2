@@ -14,7 +14,7 @@ interface ProjectNewsBoxProps {
 }
 
 export default function ProjectNewsBox({items}:ProjectNewsBoxProps) {
-  console.log(items)
+  // console.log(items)
   return (
     <div id="box-6-w">
       <div id="box-6">
