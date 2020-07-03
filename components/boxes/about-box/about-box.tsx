@@ -5,7 +5,7 @@ export default function AboutBox() {
     <div id="box-4-w">
       <div id="box-4">
         <h2 id="about">
-          Learn more about <span>Ouroboros</span>
+          Узнать  больше об <span>Ouroboros</span>
         </h2>
         <div className="lightGallery">
           <div data-src="https://youtu.be/vN7l7JisbSk" className="videobox">

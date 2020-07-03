@@ -10,29 +10,29 @@ export default function Header() {
             <a className="logo">Ouroboros</a>
           </Link>
           <div className="lang-w">
-            <a href="#" className="lang-en lang-active">
-              en
-            </a>
-            <a href="#" className="lang-ru">
+            {/*<a href="#" className="lang-en lang-active">*/}
+            {/*  en*/}
+            {/*</a>*/}
+            <a href="#" className="lang-ru lang-active">
               ru
             </a>
-            <a href="#" className="lang-tr">
-              tr
-            </a>
+            {/*<a href="#" className="lang-tr">*/}
+            {/*  tr*/}
+            {/*</a>*/}
             <div className="clear"></div>
           </div>
           <div className="menu">
             <Link href="/#about">
-              <a>About The Project</a>
+              <a>О проекте</a>
             </Link>
             <Link href="/#timeline">
-              <a>Road Map</a>
+              <a>Карта</a>
             </Link>
             <Link href="/#cases">
-              <a>What Makes Us Unique</a>
+              <a>Что делает нас уникальными</a>
             </Link>
             <Link href="/#paramining">
-              <a>Paramining</a>
+              <a>Постмайнинг</a>
             </Link>
             <div className="clear"></div>
           </div>

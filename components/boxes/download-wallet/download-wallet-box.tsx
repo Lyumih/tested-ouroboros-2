@@ -5,16 +5,15 @@ export default function DownloadWalletBox() {
     <div id="box-3-w">
       <div id="box-3">
         <h2 id="download-wallet">
-          Download <span>My Wallet</span>
+          Скачать <span>Кошелек</span>
         </h2>
         <p>
-          Secure DeepOnion wallet is available for Windows, Mac, <br />
-          and Linux. The mobile wallet is available in the Google Play Store.{" "}
+          Безопасный кошелек  Ouroboros  доступен  для Windows, Mac и Linux.
           <br />
-          Also Available for Tails, Debian, and Ubuntu versions.
+          Мобильный  кошелек  доступен в магазине Google play, App Store.
         </p>
         <a href="#" className="button-3">
-          WEB client
+          Браузерная версия
         </a>
         <a href="#" className="appstore"></a>
         <a href="#" className="googleplay"></a>
