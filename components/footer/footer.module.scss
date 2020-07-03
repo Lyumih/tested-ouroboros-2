@@ -103,6 +103,14 @@
         background: url('/images/soc-5.png') no-repeat center center;
       }
 
+      &.vk {
+        background: url('/images/soc-vk.svg') no-repeat center center;
+      }
+
+      &.instagram {
+        background: url('/images/soc-instagram.svg') no-repeat center center;
+      }
+
       &:hover {
         opacity: 0.5;
       }

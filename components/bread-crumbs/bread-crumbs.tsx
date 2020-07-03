@@ -7,7 +7,7 @@ export default function BreadCrumbs({ path }: { path: string }) {
       <div id="bread-crumbs">
         <p>
           <Link href="/">
-            <a className="home-crumbs">Home</a>
+            <a className="home-crumbs">Главная</a>
           </Link>
           <span> / </span>
           {path}

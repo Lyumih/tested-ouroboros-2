@@ -1,5 +1,6 @@
 import "./footer.module.scss";
 import Link from "next/link";
+import {FACEBOOK_URL, INSTAGRAM_URL, VK_URL, YOUTUBE_URL} from "../../constants";
 
 export default function Footer() {
   return (
@@ -26,26 +27,25 @@ export default function Footer() {
           </div>
           <div className="social">
             <a
-              href="https://www.facebook.com/"
+              href={VK_URL}
+              target="_blank"
+              className="vk"
+            ></a>
+            <a
+              href={FACEBOOK_URL}
               target="_blank"
               className="facebook"
             ></a>
             <a
-              href="https://www.t.me/"
-              target="_blank"
-              className="telegram"
-            ></a>
-            <a
-              href="https://www.twitter.com/"
-              target="_blank"
-              className="twitter"
-            ></a>
-            <a
-              href="https://www.youtube.com/"
+              href={YOUTUBE_URL}
               target="_blank"
               className="youtube"
             ></a>
-            <a href="#" target="_blank" className="bitcoin"></a>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              className="instagram"
+            ></a>
             <div className="clear"></div>
           </div>
           <div className="clear"></div>

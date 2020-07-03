@@ -19,7 +19,7 @@ export default function ProjectNewsBox({items}:ProjectNewsBoxProps) {
     <div id="box-6-w">
       <div id="box-6">
         <h2>
-          Latest project <span>news</span>
+          Последние <span>новости</span> проекта
         </h2>
         <div className="box-6-w">
           {items.map(item=> {
@@ -36,7 +36,7 @@ export default function ProjectNewsBox({items}:ProjectNewsBoxProps) {
         </div>
         <div className="clear"></div>
         <Link href="/blog">
-          <a className="button-6">More news</a>
+          <a className="button-6">Больше новостей</a>
         </Link>
         <div className="clear"></div>
       </div>

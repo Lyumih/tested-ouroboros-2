@@ -20,7 +20,7 @@ export default function SubscribeBox() {
     <div id="box-7-w">
       <div id="box-7">
         <h2>
-          Get <span>Bi-Weekly Updates</span> from Ouroboros
+          Получайте <span>обновления каждые две недели</span> от Ouroboros
         </h2>
         <p>
           Хотите быть  в курсе того, над чем мы работаем?

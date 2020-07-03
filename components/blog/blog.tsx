@@ -1,6 +1,5 @@
 import "./blog.module.scss";
 import "./page-navigation.module.scss";
-import PageNavigation from "../page-navigation/page-navigation";
 import Link from "next/link";
 import ReactPaginate from 'react-paginate'
 import {useEffect, useState} from "react";
@@ -71,7 +70,7 @@ const Blog = (props) => {
   return (
     <div id="news-project-w">
       <div id="news-project">
-        <h2>News project</h2>
+        <h2>Новости проекта</h2>
         <div className="news-project-w">
           {slicedItems.map(item=> {
             return (
@@ -92,6 +91,8 @@ const Blog = (props) => {
           pageLinkClassName='page-button'
           previousLinkClassName='previous-button'
           nextLinkClassName='next-button'
+          nextLabel={"Следующая"}
+          previousLabel={"Предыдущая"}
 
 
           // initialPage={page - 1}

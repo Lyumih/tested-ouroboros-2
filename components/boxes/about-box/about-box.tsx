@@ -8,7 +8,7 @@ export default function AboutBox() {
           Узнать  больше об <span>Ouroboros</span>
         </h2>
         <div className="lightGallery">
-          <div data-src="https://youtu.be/vN7l7JisbSk" className="videobox">
+          <div data-src="https://www.youtube.com/embed/TXoTOXtGc9Y" className="videobox">
             <img src="/images/19.jpg" alt="" />
             <div className="play-w">
               <div className="play"></div>
