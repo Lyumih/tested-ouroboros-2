@@ -1,5 +1,6 @@
 import "./promo-box.module.scss";
 import Link from "next/link";
+import {FACEBOOK_URL, INSTAGRAM_URL, VK_URL, YOUTUBE_URL} from "../../../constants";
 
 export default function PromoBox() {
   return (
@@ -8,45 +9,47 @@ export default function PromoBox() {
         <div id="box-1">
           <div className="social" id="promo">
             <a
-              href="https://www.facebook.com/"
+              href={VK_URL}
+              target="_blank"
+              className="vk"
+            ></a>
+            <a
+              href={FACEBOOK_URL}
               target="_blank"
               className="facebook"
             ></a>
             <a
-              href="https://www.t.me/"
-              target="_blank"
-              className="telegram"
-            ></a>
-            <a
-              href="https://www.twitter.com/"
-              target="_blank"
-              className="twitter"
-            ></a>
-            <a
-              href="https://www.youtube.com/"
+              href={YOUTUBE_URL}
               target="_blank"
               className="youtube"
             ></a>
-            <a href="#" target="_blank" className="bitcoin"></a>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              className="instagram"
+            ></a>
             <div className="clear"></div>
           </div>
           <h1>
             <span className="sp1-1">
-              <span className="sp1-2">Ouroboros is a new cryptocurrency</span>{" "}
-              that aims to provide fast and secure transactions
+              <span className="sp1-2">Ouroboros это криптовалюта нового поколения</span>{" "}
+              с механизмом посмайнинга{/* и возможностью построения собственной структуры
+              последователей, встроенной в блокчейн */}.
+              {/* Мы учли ошибки предшественников и создали по-настоящему безопасное решение - как в плане экономической модели, так и в плане информационной безопасности.
+               */}
             </span>
             <br />
-            for the future use in the real economic sector
+            Для дальнейшего использования в реальних экономических отраслях
           </h1>
           <Link href="/#cases">
             <a className="button-1">
-              Learn More
+              Узнать больше
             </a>
           </Link>
 
           <Link href="/#download-wallet">
             <a className="button-2">
-              Start Using
+              Подключиться
             </a>
           </Link>
           <div className="clear"></div>

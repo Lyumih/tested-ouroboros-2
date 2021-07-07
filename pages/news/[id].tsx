@@ -10,7 +10,7 @@ export default function News({newsData}) {
             <Head>
                 <title>{newsData.title}</title>
             </Head>
-            <BreadCrumbs path={"News project"} />
+            <BreadCrumbs path={newsData.title} />
             <article id="news-project-page">
                 {/*<h1>{newsData.title}</h1>*/}
                 {/*<div>{newsData.date}</div>*/}

@@ -20,12 +20,12 @@ export default function SubscribeBox() {
     <div id="box-7-w">
       <div id="box-7">
         <h2>
-          Get <span>Bi-Weekly Updates</span> from Ouroboros
+          Получайте <span>обновления каждые две недели</span> от Ouroboros
         </h2>
         <p>
-          Want to stay up to date with what we’re working on? Get the inside{" "}
+          Хотите быть  в курсе того, над чем мы работаем?
           <br />
-          scoop on what Ouroboros is up to — long before the public.
+          Получайте внутреннюю информацию  до публикации.
         </p>
         <div className="formbox">
           <form onSubmit={handleSubscribe} method="POST" name="form" id="form">
@@ -35,12 +35,12 @@ export default function SubscribeBox() {
               name="email"
               className="email"
               // autoComplete="off"
-              placeholder="Your E-mail"
+              placeholder="Ваш E-mail"
               onChange={(e)=>{setEmail(e.target.value)}}
               required
             />
             <div className="submit">
-              Subscribe
+              Подписаться
               <input type="submit" name="submit" value="Subscribe" />
             </div>
             <div className="clear"></div>

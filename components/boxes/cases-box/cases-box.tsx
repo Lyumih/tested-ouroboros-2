@@ -5,42 +5,39 @@ export default function CasesBox() {
     <div id="box-2-w">
         <div id="box-2">
           <h2 id="cases">
-            What Makes <br />
-            Us <span>Unique</span>
+            Что делает <br />
+            Нас <span>Уникальными</span>
           </h2>
           <p className="p2-1">
-            <span>Safety</span>
+            <span>БЕЗОПАСНОСТЬ</span>
             <br />
-            We are always focused on the security <br />
-            of every part of our ecosystem.
+            Мы всегда сфокусированы на безопасности <br />
+            нашей системы и наших пользователей.
           </p>
           <p className="p2-2">
-            <span>Optimal Economic Model</span>
+            <span>ОПТИМАЛЬНАЯ ЭКОНОМИЧЕСКАЯ МОДЕЛЬ</span>
             <br />
-            Calculations of interest rates and odds support the coin rate stable
-            high
+            Оптимальный процент посмайнинга и увеличивающего коэффициента в структуре
+            выставлен идеально и будет способствовать росту и развитию монеты
+
           </p>
           <p className="p2-3">
-            <span>Stable Growth</span>
+            <span>СТАБИЛЬНЫЙ РОСТ </span>
             <br />
-            Every year the system will credit new coins to the genesis wallet
-            based on the growth of the population in the world
+            Каждый год система будет начислять новые монеты в генезис кошелек исходя из роста населения Земли.
+
           </p>
           <p className="p2-4">
-            <span>Democracy</span>
+            <span>ДЕМОКРАТИЯ</span>
             <br />
-            The blockchain system is built on <br />a voting concept to resolve
-            controversial <br />
-            issues in the community
+            Блокчейн система построена на концепции голосования для решения спорных вопросов в сообществе
           </p>
           <p className="p2-5">
             <span>
-              Various Opportunities <br />
-              For Earnings
+              РАЗЛИЧНЫЕ ВОЗМОЖНОСТИ ДЛЯ ЗАРАБОТКА
             </span>
             <br />
-            You can sell your wallet to another <br />
-            user thereby monetizing your structure
+            У вас есть уникальная возможность продавать и передавать ваши кошельки другим людям. Имея хорошую структуру, вы можете выгодно продать её другим пользователям.
           </p>
           <div className="clear"></div>
         </div>

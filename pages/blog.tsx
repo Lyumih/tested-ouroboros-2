@@ -9,9 +9,9 @@ export default function Blog({allNewsData, totalCount, pageCount, currentPage, p
   return (
     <Layout>
       <Head>
-        <title>{`${siteTitle} | News Project`}</title>
+        <title>{`${siteTitle} | Новости проекта`}</title>
       </Head>
-      <BreadCrumbs path={"News project"}/>
+      <BreadCrumbs path={"Новости проекта"}/>
       <BlogComponent items={allNewsData} totalCount={totalCount} pageCount={pageCount} currentPage={currentPage} perPage={perPage}/>
     </Layout>
   );

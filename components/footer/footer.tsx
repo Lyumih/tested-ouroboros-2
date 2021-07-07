@@ -1,5 +1,6 @@
 import "./footer.module.scss";
 import Link from "next/link";
+import {FACEBOOK_URL, INSTAGRAM_URL, VK_URL, YOUTUBE_URL} from "../../constants";
 
 export default function Footer() {
   return (
@@ -11,41 +12,40 @@ export default function Footer() {
           </Link>
           <div className="menu">
             <Link href="/#about">
-              <a>About The Project</a>
+              <a>О проекте</a>
             </Link>
             <Link href="/#timeline">
-              <a>Road Map</a>
+              <a>Карта</a>
             </Link>
             <Link href="/#cases">
-              <a>What Makes Us Unique</a>
+              <a>Что делает нас уникальными</a>
             </Link>
             <Link href="/#paramining">
-              <a>Paramining</a>
+              <a>Постмайнинг</a>
             </Link>
             <div className="clear"></div>
           </div>
           <div className="social">
             <a
-              href="https://www.facebook.com/"
+              href={VK_URL}
+              target="_blank"
+              className="vk"
+            ></a>
+            <a
+              href={FACEBOOK_URL}
               target="_blank"
               className="facebook"
             ></a>
             <a
-              href="https://www.t.me/"
-              target="_blank"
-              className="telegram"
-            ></a>
-            <a
-              href="https://www.twitter.com/"
-              target="_blank"
-              className="twitter"
-            ></a>
-            <a
-              href="https://www.youtube.com/"
+              href={YOUTUBE_URL}
               target="_blank"
               className="youtube"
             ></a>
-            <a href="#" target="_blank" className="bitcoin"></a>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              className="instagram"
+            ></a>
             <div className="clear"></div>
           </div>
           <div className="clear"></div>
